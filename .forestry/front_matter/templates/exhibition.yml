@@ -11,6 +11,24 @@ fields:
 - type: file
   name: cover
   label: cover
+- type: field_group_list
+  name: works
+  label: Works
+  config:
+    min: '1'
+    labelField: title
+  fields:
+  - type: text
+    name: title
+    label: Title
+    config:
+      required: true
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: description
+    label: Description
 pages:
 - content/exhibitions/test.md
 - content/exhibitions/camouflage.md
