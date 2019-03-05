@@ -5,6 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: content/text
+  label: Text
+  create: documents
+  match: "**/*"
+- type: directory
   path: content/exhibitions
   label: Exhibitions
   create: documents
