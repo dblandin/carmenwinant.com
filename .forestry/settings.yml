@@ -9,6 +9,9 @@ sections:
   label: Text
   create: documents
   match: "**/*"
+  templates:
+  - text-upload
+  - text
 - type: directory
   path: content/exhibitions
   label: Exhibitions
