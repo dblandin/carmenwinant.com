@@ -32,7 +32,7 @@ export const query = graphql`
             title
             cover {
               childImageSharp {
-                fixed(width: 125, height: 125) {
+                fixed(height: 500) {
                   ...GatsbyImageSharpFixed
                 }
               }
