@@ -9,3 +9,5 @@ fields:
 - type: file
   name: file
   label: File
+pages:
+- content/text/our-bodies-online-for-aperture-magazine.md
