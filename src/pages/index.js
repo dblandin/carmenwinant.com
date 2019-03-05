@@ -9,7 +9,6 @@ import Layout from "../components/layout";
 export default ({ data }) => (
   <>
     <Layout>
-      <h2>Home</h2>
       {data.allMarkdownRemark.edges.map((edge, index) => (
         <Link key={index} activeClassName="active" to={edge.node.fields.slug}>
           <Img fixed={edge.node.frontmatter.cover.childImageSharp.fixed} />
