@@ -5,10 +5,8 @@ const path = require(`path`)
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    console.log(node)
-
     const slug = createFilePath({ node, getNode, basePath: `pages` })
-    console.log(slug)
+
     createNodeField({
       node,
       name: `slug`,
@@ -21,7 +19,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMarkdownRemark {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/exhibitions/" }}) {
         edges {
           node {
             fields {
