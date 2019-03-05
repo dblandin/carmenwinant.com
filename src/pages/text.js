@@ -1,8 +1,7 @@
 import React from "react";
 
-import { Header } from "../components/header";
 import { graphql } from "gatsby";
-
+import Layout from "../components/layout"
 
 export default ({ data }) => {
   const TextLink = props => (
@@ -16,7 +15,7 @@ export default ({ data }) => {
 
   return (
     <>
-      <Header />
+      <Layout>
       2016
       <ul>
         {data.allMarkdownRemark.edges.map((edge, index) => (
@@ -46,6 +45,7 @@ export default ({ data }) => {
           />
         </li>
       </ul>
+      </Layout>
     </>
   );
 };

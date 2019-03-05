@@ -1,10 +1,8 @@
 import React from "react";
-import { Header } from "../components/header";
+import Layout from "../components/layout";
 
 export default () => (
-  <>
-    <Header />
-
+  <Layout>
     <h2>bio</h2>
     <p>
       Carmen Winant is an artist and writer based in Columbus, OH. She is
@@ -53,5 +51,5 @@ export default () => (
       <li>W.A.R., Cave, Detroit, MI</li>
       <li>Body/Index, Stene Projects, Stockhom, Sweden</li>
     </ul>
-  </>
+  </Layout>
 );
