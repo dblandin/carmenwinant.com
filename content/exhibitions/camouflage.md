@@ -3,6 +3,11 @@ title: Camouflage
 cover: "../assets/large.jpg"
 date: 2019-03-05 00:55:41 +0000
 works:
+- title: Installation view, Stene Projects, 2017
+  image: "../assets/large-3.jpg"
+  description: |-
+    Ceramics and found photographs;
+    Drawings
 - title: There Was no Language (Verso), 2017
   image: "../assets/large-2.jpg"
   description: Graphite and ink on paper
