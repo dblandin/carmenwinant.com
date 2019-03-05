@@ -11,3 +11,5 @@ fields:
 - type: file
   name: cover
   label: cover
+pages:
+- content/exhibitions/camouflage.md
