@@ -28,7 +28,7 @@ export default ({ data }) => {
     <Layout>
       <div>{exhibition.frontmatter.title}</div>
       {exhibition.frontmatter.works.map((work, index) => (
-        <NonStretchedImage fluid={work.image.childImageSharp.fluid} />
+        <NonStretchedImage key={index} fluid={work.image.childImageSharp.fluid} />
       ))}
     </Layout>
   )
