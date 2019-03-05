@@ -30,5 +30,4 @@ fields:
     name: description
     label: Description
 pages:
-- content/exhibitions/test.md
 - content/exhibitions/camouflage.md
