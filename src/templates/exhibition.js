@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql } from 'gatsby' 
+import Img from "gatsby-image"
 
 
 
@@ -10,6 +11,9 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>{exhibition.frontmatter.title}</div>
+      {exhibition.frontmatter.works.map((work, index) => (
+        <Img fixed={work.image.childImageSharp.fixed} />
+      ))}
     </Layout>
   )
 }
@@ -20,6 +24,17 @@ export const query = graphql`
       html
       frontmatter {
         title
+        works {
+          title
+          description
+          image {
+            childImageSharp {
+                fixed(width: 125, height: 125) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+          }
+        }
       }
     }
   }
