@@ -8,9 +8,7 @@ works:
   description: Ceramic, found photographs, watercolor
 - title: Vessels, 2017
   image: "../assets/large-4.jpg"
-  description: |-
-    Ceramics, found photographs,
-    watercolor
+  description: Ceramics, found photographs, watercolor
 - title: Installation view, Stene Projects, 2017
   image: "../assets/large-3.jpg"
   description: |-
