@@ -12,4 +12,5 @@ fields:
   name: cover
   label: cover
 pages:
+- content/exhibitions/test.md
 - content/exhibitions/camouflage.md
