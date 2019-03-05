@@ -3,6 +3,11 @@ title: Camouflage
 cover: "../assets/large.jpg"
 date: 2019-03-05 00:55:41 +0000
 works:
+- title: Vessels, 2017
+  image: "../assets/large-4.jpg"
+  description: |-
+    Ceramics, found photographs,
+    watercolor
 - title: Installation view, Stene Projects, 2017
   image: "../assets/large-3.jpg"
   description: |-
