@@ -1,8 +1,10 @@
 import React from "react";
 
 import { Header } from "../components/header";
+import { graphql } from "gatsby";
 
-export default () => {
+
+export default ({ data }) => {
   const TextLink = props => (
     <a href={props.url || "/"}>
       <span>
@@ -17,6 +19,9 @@ export default () => {
       <Header />
       2016
       <ul>
+        {data.allMarkdownRemark.edges.map((edge, index) => (
+          <TextLink title={edge.node.frontmatter.title} source="Aperture Magazine" type="pdf" />
+        ))}
         <li>
           <TextLink title="Our Bodies" source="Aperture Magazine" type="pdf" />
         </li>
@@ -44,3 +49,18 @@ export default () => {
     </>
   );
 };
+
+
+export const query = graphql`
+  query {
+    allMarkdownRemark(filter: { fileAbsolutePath: {regex: "/text/" }}) {
+      edges {
+        node {
+          frontmatter {
+            title
+          }
+        }
+      }
+    }
+  }
+`;

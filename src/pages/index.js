@@ -22,7 +22,7 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: { fileAbsolutePath: {regex: "/exhibitions/" }}) {
       edges {
         node {
           fields {
