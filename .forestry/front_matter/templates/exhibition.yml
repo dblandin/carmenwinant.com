@@ -1,0 +1,13 @@
+---
+label: Exhibition
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: file
+  name: cover
+  label: cover
