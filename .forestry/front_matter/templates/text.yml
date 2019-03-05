@@ -1,0 +1,14 @@
+---
+label: Text
+hide_body: true
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: file
+  name: file
+  label: File
+- type: text
+  name: url
+  label: URL
