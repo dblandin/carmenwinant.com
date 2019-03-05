@@ -6,7 +6,7 @@ export const Header = () => (
     <Link activeClassName="active" to="/">
       carmen winant
     </Link>
-    <>
+    <nav>
       <Link activeClassName="active" to="/text">
         text
       </Link>
@@ -14,6 +14,6 @@ export const Header = () => (
       <Link activeClassName="active" to="/info">
         info
       </Link>
-    </>
+    </nav>
   </div>
 );

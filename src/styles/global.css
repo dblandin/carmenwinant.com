@@ -53,3 +53,12 @@ a:hover {
 .exhibition-image-container {
   max-width: 600px;
 }
+
+nav {
+  float: right;
+}
+
+.content {
+  padding: 10px;
+  margin-top: 20px;
+}

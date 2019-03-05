@@ -11,8 +11,7 @@ export default ({ data }) => (
     <Layout>
       {data.allMarkdownRemark.edges.map((edge, index) => (
         <Link key={index} activeClassName="active" to={edge.node.fields.slug}>
-          <Img fixed={edge.node.frontmatter.cover.childImageSharp.fixed} />
-          {edge.node.frontmatter.title}
+          <Img fluid={edge.node.frontmatter.cover.childImageSharp.fluid} />
         </Link>
       ))}
     </Layout>
@@ -31,8 +30,8 @@ export const query = graphql`
             title
             cover {
               childImageSharp {
-                fixed(height: 500) {
-                  ...GatsbyImageSharpFixed
+                fluid(maxWidth: 650) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
