@@ -26,9 +26,12 @@ export default ({ data }) => {
 
   return (
     <Layout>
+      <div className="exhibition">
+      <h1>{exhibition.frontmatter.title}</h1>
       {exhibition.frontmatter.works.map((work, index) => (
-        <NonStretchedImage key={index} fluid={work.image.childImageSharp.fluid} />
+        <NonStretchedImage className="exhibition-image"  key={index} fluid={work.image.childImageSharp.fluid} />
       ))}
+      </div>
     </Layout>
   )
 }
@@ -44,7 +47,7 @@ export const query = graphql`
           description
           image {
             childImageSharp {
-                fluid(maxWidth: 600) {
+                fluid(maxWidth: 400) {
                   ...GatsbyImageSharpFluid
                   presentationWidth
                 }
