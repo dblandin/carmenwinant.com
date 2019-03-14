@@ -17,7 +17,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-normalize-paths",
             options: {
-                pathFields: ["image", "cover"],
+                pathFields: ["works", "image", "cover", "file"],
             },
           },
           {
