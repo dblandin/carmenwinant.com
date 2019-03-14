@@ -1,11 +1,11 @@
 ---
 title: Post Concussion
-cover: "../assets/post-concussion-0.jpg"
+cover: "/content/assets/post-concussion-0.jpg"
 works:
 - title: My Birth
-  image: "../assets/post-concussion-0.jpg"
+  image: "/content/assets/post-concussion-0.jpg"
 - title: My Birth
-  image: "../assets/post-concussion-1.jpg"
+  image: "/content/assets/post-concussion-1.jpg"
 date: 2019-03-05 16:12:44 +0000
 
 ---
