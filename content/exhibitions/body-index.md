@@ -18,10 +18,6 @@ works:
   image: "../assets/body-index-6.jpg"
 - title: Body Index
   image: "../assets/body-index-7.jpg"
-- title: Body Index
-  image: "../assets/body-index-8.jpg"
-- title: Body Index
-  image: "../assets/body-index-9.jpg"
 date: 2019-03-05 16:12:44 +0000
 
 ---
