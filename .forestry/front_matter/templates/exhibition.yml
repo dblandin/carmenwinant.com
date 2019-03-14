@@ -29,5 +29,18 @@ fields:
     name: description
     label: Description
 pages:
-- content/exhibitions/my-birth.md
+- content/exhibitions/anita-told-the-truth.md
+- content/exhibitions/another-echo.md
+- content/exhibitions/body-index.md
 - content/exhibitions/camouflage.md
+- content/exhibitions/daegu-photography-biennial.md
+- content/exhibitions/lesbian-lands.md
+- content/exhibitions/looking-forward.md
+- content/exhibitions/my-birth.md
+- content/exhibitions/nada.md
+- content/exhibitions/post-concussion.md
+- content/exhibitions/printed-matter.md
+- content/exhibitions/the-answer-is-matriarchy.md
+- content/exhibitions/weird-women.md
+- content/exhibitions/who-says.md
+- content/exhibitions/women-working.md
