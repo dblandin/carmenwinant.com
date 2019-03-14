@@ -19,8 +19,8 @@ sections:
   match: "**/*"
 upload_dir: content/assets
 public_path: "/content/assets"
-front_matter_path: "../assets"
-use_front_matter_path: true
+front_matter_path: ''
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_command: gatsby build
