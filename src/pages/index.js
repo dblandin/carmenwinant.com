@@ -1,10 +1,9 @@
-import React from "react";
+import React from "react"
 
-import { graphql, Link } from "gatsby";
-import Img from "gatsby-image";
+import { graphql, Link } from "gatsby"
+import Img from "gatsby-image"
 
-import Layout from "../components/layout";
-
+import Layout from "../components/layout"
 
 export default ({ data }) => (
   <Layout>
@@ -16,11 +15,13 @@ export default ({ data }) => (
       ))}
     </div>
   </Layout>
-);
+)
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/exhibitions/" }}) {
+    allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/exhibitions/" } }
+    ) {
       edges {
         node {
           fields {
@@ -40,4 +41,4 @@ export const query = graphql`
       }
     }
   }
-`;
+`

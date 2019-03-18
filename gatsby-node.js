@@ -19,7 +19,9 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/exhibitions/" }}) {
+      allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/exhibitions/" } }
+      ) {
         edges {
           node {
             fields {

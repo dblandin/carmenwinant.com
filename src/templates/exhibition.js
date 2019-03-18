@@ -1,9 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
-import { graphql } from 'gatsby' 
+import { graphql } from "gatsby"
 import Img from "gatsby-image"
-
-
 
 export default ({ data }) => {
   const exhibition = data.markdownRemark
@@ -20,17 +18,21 @@ export default ({ data }) => {
         },
       }
     }
-  
+
     return <Img {...normalizedProps} />
   }
 
   return (
     <Layout>
       <div className="exhibition">
-      <h1>{exhibition.frontmatter.title}</h1>
-      {exhibition.frontmatter.works.map((work, index) => (
-        <NonStretchedImage className="exhibition-image"  key={index} fluid={work.image.childImageSharp.fluid} />
-      ))}
+        <h1>{exhibition.frontmatter.title}</h1>
+        {exhibition.frontmatter.works.map((work, index) => (
+          <NonStretchedImage
+            className="exhibition-image"
+            key={index}
+            fluid={work.image.childImageSharp.fluid}
+          />
+        ))}
       </div>
     </Layout>
   )
@@ -47,14 +49,14 @@ export const query = graphql`
           description
           image {
             childImageSharp {
-                fluid(maxWidth: 400) {
-                  ...GatsbyImageSharpFluid
-                  presentationWidth
-                }
+              fluid(maxWidth: 400) {
+                ...GatsbyImageSharpFluid
+                presentationWidth
               }
+            }
           }
         }
       }
     }
   }
-`;
+`
