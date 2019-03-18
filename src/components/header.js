@@ -10,7 +10,7 @@ export const Header = () => (
         <Link activeClassName="active" to="/text">
           text
         </Link>
-        &nbsp;&nbsp;&mdash;&nbsp;&nbsp;
+        <span>&nbsp;&nbsp;&ndash;&nbsp;&nbsp;</span>
         <Link activeClassName="active" to="/info">
           info
         </Link>

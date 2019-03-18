@@ -29,13 +29,13 @@
 
 .header {
   margin: 0 auto;
-  max-width: 612px;
+  max-width: 65%;
   padding: 0 20px;
 }
 
-.header a {
+.header a, .header span {
   font-family: "Helvetica LT W01 Narrow";
-  font-size: 24px;
+  font-size: 36px;
 }
 
 body {
@@ -62,9 +62,9 @@ a.active {
   text-transform: uppercase;
 }
 
-li a {
-  font-size: 18px;
-  line-height: 22px;
+a li {
+  font-size: 24px;
+  line-height: 36px;
 }
 
 a:hover {
@@ -88,6 +88,6 @@ nav {
 .exhibition h1 {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 36px;
 
 }
