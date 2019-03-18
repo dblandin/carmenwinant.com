@@ -6,10 +6,12 @@ import Layout from "../components/layout"
 export default ({ data }) => {
   const TextLink = props => (
     <a href={props.url || "/"}>
+    <li>
       <span>
         {props.title}
       </span>
       <span style={{float: "right"}}>({props.type})</span>
+      </li>
     </a>
   );
 
@@ -18,9 +20,7 @@ export default ({ data }) => {
       <Layout>
       <ul>
         {data.allMarkdownRemark.edges.map((edge, index) => (
-          <li>
-            <TextLink url={edge.node.frontmatter.file.publicURL} title={edge.node.frontmatter.title} type="pdf" />
-          </li>
+          <TextLink url={edge.node.frontmatter.file.publicURL} title={edge.node.frontmatter.title} type="pdf" />
         ))}
       </ul>
       </Layout>
