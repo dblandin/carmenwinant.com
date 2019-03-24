@@ -9,9 +9,12 @@ export default ({ data }) => (
   <Layout>
     <div className="home">
       {data.allMarkdownRemark.edges.map((edge, index) => (
+        <div className="home-exhibition-wrapper">
         <Link key={index} activeClassName="active" to={edge.node.fields.slug}>
           <Img fluid={edge.node.frontmatter.cover.childImageSharp.fluid} />
+          <p style={{ margin: 0, width: "100%", height: "20px", textAlign: "center"}}>{edge.node.frontmatter.title}</p>
         </Link>
+        </div>
       ))}
     </div>
   </Layout>

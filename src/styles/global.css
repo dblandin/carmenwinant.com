@@ -15,11 +15,20 @@
     src:url("../fonts/5596199/86e210fa-5fc3-4ac7-a1be-4851cc4b3a3c.eot?#iefix") format("eot"),url("../fonts/5596199/2484adb2-fa39-4a13-bb1b-dde750de3b8c.woff2") format("woff2"),url("../fonts/5596199/d650bce7-6443-4b20-b6bf-b67523baccb6.woff") format("woff"),url("../fonts/5596199/b6c72bb5-adc4-41a6-b150-2af67fd9b4f2.ttf") format("truetype");
 }
 
-.home .gatsby-image-wrapper {
+.home-exhibition-wrapper {
   width: 48%;
-  margin: 1%;
+  margin: 20px 1% 20px 1%;
   display: inline-block;
   vertical-align: top;
+}
+
+.home-exhibition-wrapper p {
+  font-size: 24px;
+}
+
+.home .gatsby-image-wrapper {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .headroom {
@@ -90,4 +99,43 @@ nav {
   margin-bottom: 20px;
   font-size: 36px;
 
+}
+
+.flexbox-container{
+	display: flex;
+	width: 100%;
+}
+
+.flexbox-container h2, .flexbox-container h3 {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Helvetica LT W01 Narrow";
+  font-size: 24px;
+}
+
+.flexbox-container p {
+  font-family: "Helvetica LT W01 Narrow";
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.flexbox-container li {
+  font-family: "Helvetica LT W01 Narrow";
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.left{
+	order: 1;
+	flex: 1;
+  flex-basis: auto;
+  padding: .5rem;	order: 1;
+	flex: 1;
+  min-height: 666px;
+}
+
+.right{
+	order: 1;
+	flex: 1;
+  padding: .5rem;
 }
