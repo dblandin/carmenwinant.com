@@ -19,9 +19,9 @@ export default ({ data }) => {
         <ul>
           {data.allMarkdownRemark.edges.map((edge, index) => (
             <TextLink
-              url={edge.node.frontmatter.file.publicURL}
+              url={edge.node.frontmatter.url || edge.node.frontmatter.file.publicURL}
               title={edge.node.frontmatter.title}
-              type="pdf"
+              type={edge.node.frontmatter.url ? "url" : "pdf"}
             />
           ))}
         </ul>
@@ -40,6 +40,7 @@ export const query = graphql`
             file {
               publicURL
             }
+            url
           }
         }
       }
