@@ -22,6 +22,12 @@
   vertical-align: top;
 }
 
+@media screen and (max-width: 650px) {
+  .home-exhibition-wrapper {
+    width: 100%;
+  }
+}
+
 .home-exhibition-wrapper p {
   font-size: 24px;
 }
@@ -42,6 +48,13 @@
   padding: 0 20px;
 }
 
+.exhibition-nav {
+  display: inline-block;
+  font-size: 36px;
+  text-align: center;
+  width: 100px;
+}
+
 .header a, .header span {
   font-family: "Helvetica LT W01 Narrow";
   font-size: 36px;
@@ -60,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 
 ul {
   list-style: none;
+  padding: 10px 0;
 }
 
 a {
@@ -137,14 +151,48 @@ nav {
 	order: 1;
 	flex: 1;
   flex-basis: auto;
-  padding: .5rem;	order: 1;
+  order: 1;
 	flex: 1;
-  min-height: 666px;
+  padding-right: 60px;
+}
+
+.left p {
+  line-height: 32px;
 }
 
 .right{
+  padding-left: 60px;
   width: 200px;
 	order: 1;
 	flex: 1;
   padding: .5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .left, .right {
+    width: 100%;
+  }
+
+  .flexbox-container {
+    display: block;
+
+  }
+  .header {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .header a.home {
+    width: 100% !important;
+  }
+  
+  nav {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .exhibition h1 {
+    padding-bottom: 20px;
+  }
 }

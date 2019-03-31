@@ -5,7 +5,7 @@ import Headroom from "react-headroom"
 export const Header = () => (
   <Headroom>
     <div className="header">
-        <Link style={{ display: "inline-block", textAlign: "center", width: "300px"}} to="/">carmen winant</Link>
+        <Link className="home" style={{ display: "inline-block", textAlign: "center", width: "300px"}} to="/">carmen winant</Link>
       <nav>
         <Link style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/text">
           text

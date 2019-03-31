@@ -35,9 +35,15 @@ export default ({ data, pageContext }) => {
             fluid={work.image.childImageSharp.fluid}
           />
         ))}
-        {pageContext.previous &&  <Link to={pageContext.previous.slug}>{pageContext.previous.title}</Link>}
-        {pageContext.next &&  <Link to={pageContext.next.slug}>{pageContext.next.title}</Link>}
       </div>
+      <div>
+          {pageContext.previous && 
+            <Link className="exhibition-nav" to={pageContext.previous.slug}>prev</Link> 
+          }
+          {pageContext.next && 
+            <Link className="exhibition-nav" style={{ float: "right"}} to={pageContext.next.slug}>next</Link>
+          }
+        </div>
     </Layout>
   )
 }
