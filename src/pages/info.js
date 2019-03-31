@@ -16,20 +16,20 @@ export default () => (
         <h2>contact</h2>
         <ul>
           <li>
-            gallery&nbsp;&ndash;&nbsp;<a href="/">Skibum&nbsp;MacArthur</a>
+            gallery&nbsp;&ndash;&nbsp;<a href="http://www.skibummacarthur.net">Skibum&nbsp;MacArthur</a>
           </li>
           <li>
-            studio&nbsp;&ndash;&nbsp;<a href="/">info@carmenwinant.com</a>
+            studio&nbsp;&ndash;&nbsp;<a href="mailto:info@carmenwinant.com">info@carmenwinant.com</a>
           </li>
         </ul>
 
         <h2>website</h2>
         <ul>
           <li>
-            design&nbsp;&ndash;&nbsp;<a href="/">Wax Studios</a>
+            design&nbsp;&ndash;&nbsp;<a href="http://wax-studios.com">Wax Studios</a>
           </li>
           <li>
-            development&nbsp;&ndash;&nbsp;<a href="/">Devon Blandin</a>
+            development&nbsp;&ndash;&nbsp;<a href="https://devon.fyi">Devon Blandin</a>
           </li>
         </ul>
       </div>
