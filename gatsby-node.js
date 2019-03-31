@@ -27,17 +27,31 @@ exports.createPages = ({ graphql, actions }) => {
             fields {
               slug
             }
+            frontmatter {
+              title
+            }
           }
         }
       }
     }
   `).then(result => {
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    result.data.allMarkdownRemark.edges.forEach(({ node }, index) => {
+      const previousEdge = result.data.allMarkdownRemark.edges[index - 1]
+      const nextEdge = result.data.allMarkdownRemark.edges[index + 1]
+
       createPage({
         path: node.fields.slug,
         component: path.resolve(`./src/templates/exhibition.js`),
         context: {
+          previous: previousEdge && {
+            title: previousEdge.node.frontmatter.title,
+            slug: previousEdge.node.fields.slug,
+          },
           slug: node.fields.slug,
+          next: nextEdge && {
+            title: nextEdge.node.frontmatter.title,
+            slug: nextEdge.node.fields.slug,
+          },
         },
       })
     })

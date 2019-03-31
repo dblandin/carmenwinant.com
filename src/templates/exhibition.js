@@ -2,8 +2,10 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Link } from "gatsby"
 
-export default ({ data }) => {
+
+export default ({ data, pageContext }) => {
   const exhibition = data.markdownRemark
 
   const NonStretchedImage = props => {
@@ -33,6 +35,8 @@ export default ({ data }) => {
             fluid={work.image.childImageSharp.fluid}
           />
         ))}
+        {pageContext.previous &&  <Link to={pageContext.previous.slug}>{pageContext.previous.title}</Link>}
+        {pageContext.next &&  <Link to={pageContext.next.slug}>{pageContext.next.title}</Link>}
       </div>
     </Layout>
   )
