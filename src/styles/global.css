@@ -22,6 +22,11 @@
   vertical-align: top;
 }
 
+.layout-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 650px) {
   .home-exhibition-wrapper {
     width: 100%;
@@ -68,9 +73,10 @@
 }
 
 .header {
+  display: flex;
   margin: 0 auto;
-  max-width: 65%;
-  padding: 0 20px;
+  justify-content: space-between;
+  width: 800px;
 }
 
 .exhibition-nav {
@@ -141,10 +147,6 @@ a:hover {
   line-height: 1.2em;
   padding: 0;
   margin: 0;
-}
-
-nav {
-  float: right;
 }
 
 .content {
@@ -237,6 +239,7 @@ nav {
     display: block;
   }
   .header {
+    display: block;
     max-width: 100%;
     padding: 0;
   }
