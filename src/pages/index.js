@@ -12,7 +12,9 @@ export default ({ data }) => (
         <div className="home-exhibition-wrapper">
         <Link key={index} activeClassName="active" to={edge.node.fields.slug}>
           <Img fluid={edge.node.frontmatter.cover.childImageSharp.fluid} />
-          <p style={{ margin: 0, width: "100%", height: "20px", textAlign: "center"}}>{edge.node.frontmatter.title}</p>
+          <div className="title-wrapper">
+            <p>{edge.node.frontmatter.title}</p>
+          </div>
         </Link>
         </div>
       ))}

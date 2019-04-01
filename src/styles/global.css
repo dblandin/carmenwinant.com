@@ -28,9 +28,33 @@
   }
 }
 
+.home-exhibition-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.home-exhibition-wrapper .title-wrapper {
+  background-color: #fff;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: -60px;
+
+  transition-property: bottom;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
+.home-exhibition-wrapper:hover .title-wrapper {
+  bottom: 0px;
+}
+
 .home-exhibition-wrapper p {
   font-size: 32px;
   line-height: 1.2em;
+  padding: 0;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .home .gatsby-image-wrapper {
@@ -190,13 +214,27 @@ nav {
 }
 
 @media screen and (max-width: 650px) {
+  .home-exhibition-wrapper .title-wrapper {
+    bottom: 0;
+    opacity: .8;
+    height: 60px;
+    margin: 0;
+  }
+
+  .home-exhibition-wrapper {
+    margin: 10px 0;
+  }
+
+  .home-exhibition-wrapper .title-wrapper p {
+    font-size: 24px;
+  }
+
   .left, .right {
     width: 100%;
   }
 
   .flexbox-container {
     display: block;
-
   }
   .header {
     max-width: 100%;
