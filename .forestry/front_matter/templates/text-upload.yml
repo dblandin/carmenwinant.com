@@ -5,6 +5,12 @@ fields:
 - type: text
   name: title
   label: Title
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
+  default: '2019-04-01T19:37:36Z'
 - type: file
   name: file
   label: File
