@@ -1,5 +1,5 @@
 ---
 title: In Conversation With Charles Atlas
 file: /content/assets/in-conversation-with-charles-atlas.pdf
-date: 2019-03-18 01:53:23 +0000
+date: 2015-01-01 12:00:00 +0000
 ---

@@ -1,5 +1,5 @@
 ---
 title: Our Bodies, Online for Aperture Magazine
 file: /content/assets/our-bodies-online.pdf
-date: 2019-03-05 01:54:53 +0000
+date: 2016-01-01 12:00:00 +0000
 ---

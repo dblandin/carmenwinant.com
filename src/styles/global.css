@@ -17,7 +17,7 @@
 
 .home-exhibition-wrapper {
   width: 48%;
-  margin: 20px 1% 20px 1%;
+  margin: 30px 1% 30px 1%;
   display: inline-block;
   vertical-align: top;
 }
@@ -29,7 +29,7 @@
 }
 
 .home-exhibition-wrapper p {
-  font-size: 40px;
+  font-size: 32px;
   line-height: 1.2em;
 }
 
@@ -89,8 +89,12 @@ a.active {
 }
 
 a li {
-  font-size: 32px;
-  line-height: 1.4em;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  line-height: 1.2em;
+  display: flex;
+  justify-content: space-between;
 }
 
 a:hover {
@@ -102,6 +106,18 @@ a:hover {
   margin-bottom: 20px !important;
 }
 
+.page-text h2 {
+  font-size: 40px;
+  line-height: 1.2em;
+  margin: 40px 0;
+}
+
+.page-text li, .page-text p {
+  font-size: 40px;
+  line-height: 1.2em;
+  padding: 0;
+  margin: 0;
+}
 
 nav {
   float: right;

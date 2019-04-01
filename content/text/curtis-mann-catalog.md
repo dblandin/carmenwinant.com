@@ -1,5 +1,5 @@
 ---
 title: Curtis Mann Catalog
 file: /content/assets/curtis-mann-catalog.pdf
-date: 2019-03-18 01:53:23 +0000
+date: 2012-01-01 12:00:00 +0000
 ---

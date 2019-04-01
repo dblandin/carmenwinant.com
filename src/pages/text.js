@@ -3,12 +3,26 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
+const groupedText = (data) => {
+  const groups = {}
+
+  data.allMarkdownRemark.edges.forEach((edge) => {
+    const node = edge.node;
+    const date = new Date(node.frontmatter.date)
+    groups[date.getFullYear()] || (groups[date.getFullYear()] = [])
+    groups[date.getFullYear()].push(node)
+    
+  });
+
+  return groups;
+}
+
 export default ({ data }) => {
   const TextLink = props => (
     <a href={props.url || "/"}>
       <li>
-        <span>{props.title}</span>
-        <span style={{ float: "right" }}>({props.type})</span>
+        <p>{props.title}</p>
+        <p>({props.type})</p>
       </li>
     </a>
   )
@@ -16,15 +30,24 @@ export default ({ data }) => {
   return (
     <>
       <Layout>
-        <ul>
-          {data.allMarkdownRemark.edges.map((edge, index) => (
-            <TextLink
-              url={edge.node.frontmatter.url || edge.node.frontmatter.file.publicURL}
-              title={edge.node.frontmatter.title}
-              type={edge.node.frontmatter.url ? "url" : "pdf"}
-            />
-          ))}
-        </ul>
+      <div className="page-text">
+        {Object.entries(groupedText(data)).reverse().map((group) => {
+          return (
+            <>
+            <h2 style={{textAlign: "center"}}>{group[0]}</h2>
+            <ul>
+            {group[1].map((node) => {
+              return <TextLink
+                url={node.frontmatter.url || node.frontmatter.file.publicURL}
+                title={node.frontmatter.title}
+                type={node.frontmatter.url ? "url" : "pdf"}
+              /> 
+            })}
+            </ul>
+            </>
+          )
+        })}
+      </div>
       </Layout>
     </>
   )
@@ -41,6 +64,7 @@ export const query = graphql`
               publicURL
             }
             url
+            date
           }
         }
       }

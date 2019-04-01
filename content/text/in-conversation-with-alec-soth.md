@@ -1,5 +1,5 @@
 ---
 title: In Conversation With Alec Soth
 file: /content/assets/in-conversation-with-alec-soth.pdf
-date: 2019-03-18 01:53:23 +0000
+date: 2011-01-01 12:00:00 +0000
 ---

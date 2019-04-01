@@ -1,5 +1,5 @@
 ---
 title: Inside Out Michael Hilsman
 file: /content/assets/inside-out-michael-hilsman.pdf
-date: 2019-03-18 01:53:23 +0000
+date: 2015-01-01 12:00:00 +0000
 ---
