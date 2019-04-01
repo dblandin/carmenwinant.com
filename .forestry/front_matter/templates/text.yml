@@ -5,6 +5,11 @@ fields:
 - type: text
   name: title
   label: Title
+- type: datetime
+  name: date
+  label: Date
+  config:
+    required: true
 - type: text
   name: url
   label: URL
