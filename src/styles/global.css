@@ -44,10 +44,6 @@
   height: 60px;
   position: absolute;
   bottom: -60px;
-
-  transition-property: bottom;
-	transition-duration: .5s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
 .home-exhibition-wrapper:hover .title-wrapper {
