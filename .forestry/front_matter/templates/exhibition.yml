@@ -14,7 +14,7 @@ fields:
   name: works
   label: Works
   config:
-    min: '1'
+    min: ''
     labelField: title
   fields:
   - type: text
