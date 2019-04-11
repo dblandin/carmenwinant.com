@@ -71,7 +71,7 @@ export default props => (
             design&nbsp;&ndash;&nbsp;<a href="http://wax-studios.com">Wax Studios</a>
           </li>
           <li>
-            development&nbsp;&ndash;&nbsp;<a href="https://devon.fyi">Devon Blandin</a>
+            development&nbsp;&ndash;&nbsp;<a href="https://twitter.com/dblandin">Devon Blandin</a>
           </li>
         </ul>
       </div>
