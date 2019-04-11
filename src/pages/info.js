@@ -53,10 +53,10 @@ export default props => (
     <div className="flexbox-container">
       <div className="left">
         <h2>bio</h2>
-        <p>{data.pagesYaml.bio}</p>
+        <p className="bio">{data.pagesYaml.bio}</p>
 
         <h2>contact</h2>
-        <ul>
+        <ul className="contact">
           <li>
             gallery&nbsp;&ndash;&nbsp;<a href={data.pagesYaml.gallery.url}>{data.pagesYaml.gallery.display}</a>
           </li>
@@ -66,7 +66,7 @@ export default props => (
         </ul>
 
         <h2>website</h2>
-        <ul>
+        <ul className="website">
           <li>
             design&nbsp;&ndash;&nbsp;<a href="http://wax-studios.com">Wax Studios</a>
           </li>

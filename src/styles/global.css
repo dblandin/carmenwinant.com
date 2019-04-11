@@ -175,7 +175,6 @@ a:hover {
 }
 
 .flexbox-container p {
-  font-family: "Times NR MT W01 Condensed";
   font-size: 24px;
   line-height: 1.2em;
 }
@@ -188,9 +187,17 @@ a:hover {
 
 .flexbox-container li {
   width: 100%;
-  font-family: "Times NR MT W01 Condensed";
+
   font-size: 24px;
   line-height: 28px;
+}
+
+.solo-exhibitions li {
+  font-family: "Times NR MT W01 Condensed";
+}
+
+.bio, .contact, .website {
+  font-family: "Helvetica LT W01 Narrow";
 }
 
 .left{
