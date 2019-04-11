@@ -1,25 +1,38 @@
 import React from "react"
 import Layout from "../components/layout"
+import { StaticQuery, graphql } from "gatsby"
 
-export default () => (
+export default props => (
+  <StaticQuery
+    query={graphql`
+      query {
+        pagesYaml(name: { eq: "Info" }) {
+          bio
+          gallery {
+            display
+            url
+          }
+          contact {
+            display
+            url
+          }
+        }
+      }
+    `}
+    render={data => 
   <Layout>
     <div className="flexbox-container">
       <div className="left">
         <h2>bio</h2>
-        <p>
-          Carmen Winant is an artist and writer based in Columbus, OH. She is
-          Assistant Professor of Visual Studies and Contemporary Art History at
-          Columbus College of Art and Design, Dean at the Skowhegan School of
-          Painting and Sculpture and a co-editor of The Highlights Journal.
-        </p>
+        <p>{data.pagesYaml.bio}</p>
 
         <h2>contact</h2>
         <ul>
           <li>
-            gallery&nbsp;&ndash;&nbsp;<a href="http://www.skibummacarthur.net">Skibum&nbsp;MacArthur</a>
+            gallery&nbsp;&ndash;&nbsp;<a href={data.pagesYaml.gallery.url}>{data.pagesYaml.gallery.display}</a>
           </li>
           <li>
-            studio&nbsp;&ndash;&nbsp;<a href="mailto:info@carmenwinant.com">info@carmenwinant.com</a>
+            studio&nbsp;&ndash;&nbsp;<a href={data.pagesYaml.contact.url}>{data.pagesYaml.contact.display}</a>
           </li>
         </ul>
 
@@ -59,4 +72,6 @@ export default () => (
       </div>
     </div>
   </Layout>
+    }
+  />
 )
