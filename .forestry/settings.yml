@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/pages/info.yml
   label: Info Page
-  match: "**/*"
 - type: directory
   path: content/text
   label: Text
