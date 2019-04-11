@@ -20,6 +20,8 @@ sections:
   label: Exhibitions
   create: documents
   match: "**/*"
+  templates:
+  - exhibition
 upload_dir: content/assets
 public_path: "/content/assets"
 front_matter_path: ''
