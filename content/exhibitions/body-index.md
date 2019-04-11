@@ -19,5 +19,7 @@ works:
 - title: Body Index
   image: "/content/assets/body-index-7.jpg"
 date: 2019-03-05 16:12:44 +0000
+featured: true
+solo: false
 
 ---

@@ -11,5 +11,7 @@ works:
 - title: Nada
   image: "/content/assets/nada-3.jpg"
 date: 2019-03-05 16:12:44 +0000
+featured: true
+solo: false
 
 ---

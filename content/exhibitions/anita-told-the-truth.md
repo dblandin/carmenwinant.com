@@ -13,5 +13,7 @@ works:
 - title: Anita Told The Truth
   image: "/content/assets/anita-told-the-truth-4.jpg"
 date: 2019-03-05 16:12:44 +0000
+featured: true
+solo: false
 
 ---
