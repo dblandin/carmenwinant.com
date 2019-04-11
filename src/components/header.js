@@ -10,7 +10,7 @@ export const Header = () => (
         <Link style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/text">
           text
         </Link>
-        <span>&nbsp;&mdash;&nbsp;</span>
+        <span>&mdash;</span>
         <Link style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/info">
           info
         </Link>
