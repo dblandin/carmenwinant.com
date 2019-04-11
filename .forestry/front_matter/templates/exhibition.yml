@@ -28,6 +28,13 @@ fields:
   - type: textarea
     name: description
     label: Description
+- type: boolean
+  name: featured
+  label: Featured
+- type: boolean
+  name: solo
+  label: Solo Show
+  description: Show in Info Page Solo Exhibitions section
 pages:
 - content/exhibitions/daegu-photography-biennial.md
 - content/exhibitions/women-working.md
