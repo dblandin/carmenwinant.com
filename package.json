@@ -16,7 +16,8 @@
   "dependencies": {
     "gatsby": "^2.1.20",
     "gatsby-image": "^2.0.31",
-    "gatsby-plugin-sharp": "^2.0.24",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.33",
     "gatsby-remark-images": "^3.0.6",
     "gatsby-remark-normalize-paths": "https://github.com/forestryio/gatsby-remark-normalize-paths.git#install-from-github",
     "gatsby-source-filesystem": "^2.0.23",
@@ -25,7 +26,8 @@
     "git": "^0.1.5",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-headroom": "^2.2.8"
+    "react-headroom": "^2.2.8",
+    "react-helmet": "^5.2.0"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
