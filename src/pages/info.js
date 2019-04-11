@@ -2,10 +2,39 @@ import React from "react"
 import Layout from "../components/layout"
 import { StaticQuery, graphql } from "gatsby"
 
+const groupedText = (data) => {
+  const groups = {}
+
+  data.allMarkdownRemark.edges.forEach((edge) => {
+    const node = edge.node;
+    const date = new Date(node.frontmatter.date)
+    groups[date.getFullYear()] || (groups[date.getFullYear()] = [])
+    groups[date.getFullYear()].push(node)
+    
+  });
+
+  return groups;
+}
+
 export default props => (
   <StaticQuery
     query={graphql`
       query {
+        allMarkdownRemark(
+          filter: {
+            fileAbsolutePath: { regex: "/exhibitions/" },
+            frontmatter: { solo: { eq: true } },
+          }
+        ) {
+          edges {
+            node {
+              frontmatter {
+                title
+                date
+              }
+            }
+          }
+        }
         pagesYaml(name: { eq: "Info" }) {
           bio
           gallery {
@@ -51,24 +80,18 @@ export default props => (
 
         <h2>solo exhibitions</h2>
 
-        <h3>2020</h3>
-        <ul>
-          <li>Title TBD, Fortnight Institute</li>
-          <li>Title TBD, Melanie Flood Projects</li>
-        </ul>
-
-        <h3>2019</h3>
-        <ul>
-          <li>With Child: Carmen Winant and Otto Dix, Worcester Museum of Art</li>
-          <li>Title TBD, 14a, Hamburg, Germany</li>
-          <li>Expressions Of, 17 Essex, New York, NY</li>
-        </ul>
-
-        <h3>2018</h3>
-        <ul>
-          <li>W.A.R., Cave, Detroit, MI</li>
-          <li>Body/Index, Stene Projects, Stockhom, Sweden</li>
-        </ul>
+        {Object.entries(groupedText(data)).reverse().map((group) => {
+          return (
+            <>
+            <h3 style={{textAlign: "center"}}>{group[0]}</h3>
+            <ul>
+            {group[1].map((node) => {
+              return <li>{node.frontmatter.title}</li>
+            })}
+            </ul>
+            </>
+          )
+        })}
       </div>
     </div>
   </Layout>
