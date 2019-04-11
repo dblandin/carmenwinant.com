@@ -41,6 +41,7 @@ fields:
   label: Solo Show
   description: Show in Info Page Solo Exhibitions section
 pages:
+- content/exhibitions/body-index-stene-projects-stockhom-sweden.md
 - content/exhibitions/w-a-r-cave-detroit-mi.md
 - content/exhibitions/expressions-of-17-essex-new-york-ny.md
 - content/exhibitions/title-tbd-14a-hamburg-germany.md
