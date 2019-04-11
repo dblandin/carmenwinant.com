@@ -76,20 +76,20 @@ export default props => (
         </ul>
       </div>
 
-      <div className="right">
+      <div className="right solo-exhibitions">
 
         <h2>solo exhibitions</h2>
 
-        {Object.entries(groupedText(data)).reverse().map((group) => {
+        {Object.entries(groupedText(data)).reverse().map((group, index) => {
           return (
-            <>
+            <div key={index}>
             <h3 style={{textAlign: "center"}}>{group[0]}</h3>
             <ul>
-            {group[1].map((node) => {
-              return <li>{node.frontmatter.title}</li>
+            {group[1].map((node, index) => {
+              return <li key={index}>{node.frontmatter.title}</li>
             })}
             </ul>
-            </>
+            </div>
           )
         })}
       </div>

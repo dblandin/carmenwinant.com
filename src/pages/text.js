@@ -31,20 +31,21 @@ export default ({ data }) => {
     <>
       <Layout>
       <div className="page-text">
-        {Object.entries(groupedText(data)).reverse().map((group) => {
+        {Object.entries(groupedText(data)).reverse().map((group, index) => {
           return (
-            <>
+            <div key={index}>
             <h2 style={{textAlign: "center"}}>{group[0]}</h2>
             <ul>
-            {group[1].map((node) => {
+            {group[1].map((node, index) => {
               return <TextLink
                 url={node.frontmatter.url || node.frontmatter.file.publicURL}
                 title={node.frontmatter.title}
                 type={node.frontmatter.url ? "url" : "pdf"}
+                key={index}
               /> 
             })}
             </ul>
-            </>
+            </div>
           )
         })}
       </div>

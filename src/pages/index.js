@@ -9,7 +9,7 @@ export default ({ data }) => (
   <Layout>
     <div className="home">
       {data.allMarkdownRemark.edges.map((edge, index) => (
-        <div className="home-exhibition-wrapper">
+        <div className="home-exhibition-wrapper" key={index}>
         <Link key={index} activeClassName="active" to={edge.node.fields.slug}>
           <Img fluid={edge.node.frontmatter.cover.childImageSharp.fluid} />
           <div className="title-wrapper">
