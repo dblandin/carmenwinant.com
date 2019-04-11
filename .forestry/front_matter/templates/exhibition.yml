@@ -41,6 +41,7 @@ fields:
   label: Solo Show
   description: Show in Info Page Solo Exhibitions section
 pages:
+- content/exhibitions/title-tbd-14a-hamburg-germany.md
 - content/exhibitions/with-child-carmen-winant-and-otto-dix-worcester-museum-of-art.md
 - content/exhibitions/title-tbd-melanie-flood-projects.md
 - content/exhibitions/title-tbd-fortnight-institute.md
