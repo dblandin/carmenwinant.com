@@ -15,5 +15,7 @@ works:
 - title: Daegu Photography Biennial
   image: "/content/assets/daegu-photography-biennial-5.jpg"
 date: 2019-03-05 16:12:44 +0000
+featured: true
+solo: false
 
 ---
