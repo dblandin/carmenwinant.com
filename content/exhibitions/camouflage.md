@@ -25,7 +25,6 @@ works:
 - title: Vessels, 2017
   image: "/content/assets/camouflage-5.jpg"
   description: Ceramic, found photographs, watercolor
-date: 2019-03-05 16:12:44 +0000
 featured: true
 solo: false
 
