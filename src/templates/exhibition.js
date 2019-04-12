@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
-
+import { Helmet } from "react-helmet"
 
 export default ({ data, pageContext }) => {
   const exhibition = data.markdownRemark
@@ -39,13 +39,15 @@ export default ({ data, pageContext }) => {
         ))}
       </div>
       <div className="exhibition-nav">
-          {pageContext.previous && 
-            <Link to={pageContext.previous.slug}>prev</Link> 
-          }
-          {pageContext.next && 
-            <Link style={{ float: "right"}} to={pageContext.next.slug}>next</Link>
-          }
-        </div>
+        {pageContext.previous && (
+          <Link to={pageContext.previous.slug}>prev</Link>
+        )}
+        {pageContext.next && (
+          <Link style={{ float: "right" }} to={pageContext.next.slug}>
+            next
+          </Link>
+        )}
+      </div>
     </Layout>
   )
 }
