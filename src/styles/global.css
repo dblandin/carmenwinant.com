@@ -84,11 +84,19 @@ body {
   padding: 10px 0;
 }
 
-nav a.text:hover ~ span {
-  padding-left: 10px;
+nav a.text:hover {
+  margin-right: 10px;
+}
+
+nav a.text.active {
+  margin-right: 10px;
 }
 
 nav a.info:hover {
+  margin-left: 10px;
+}
+
+nav a.info.active {
   margin-left: 10px;
 }
 
