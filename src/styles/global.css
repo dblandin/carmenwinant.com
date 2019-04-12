@@ -41,9 +41,8 @@
 .home-exhibition-wrapper .title-wrapper {
   background-color: #fff;
   width: 100%;
-  height: 60px;
+  height: auto;
   position: absolute;
-  bottom: -60px;
 }
 
 .home-exhibition-wrapper:hover .title-wrapper {
@@ -128,6 +127,13 @@ a:hover {
   text-transform: uppercase;
 }
 
+.home-exhibition-wrapper a:hover {
+  text-transform: none;
+}
+
+.home-exhibition-wrapper p:hover {
+  text-transform: uppercase;
+}
 
 .exhibition .gatsby-image-wrapper {
   margin-bottom: 20px !important;
@@ -226,8 +232,8 @@ a:hover {
   .home-exhibition-wrapper .title-wrapper {
     bottom: 0;
     opacity: .8;
-    height: 60px;
     margin: 0;
+    padding-bottom: 10px;
   }
 
   .home-exhibition-wrapper {
