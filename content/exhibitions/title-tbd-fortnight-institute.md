@@ -1,5 +1,6 @@
 ---
-title: Title TBD, Fortnight Institute
+title: Title TBD
+location: Fortnight Institute
 cover: ''
 works: []
 featured: false

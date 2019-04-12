@@ -30,6 +30,7 @@ export default props => (
             node {
               frontmatter {
                 title
+                location
                 date
               }
             }
@@ -86,7 +87,7 @@ export default props => (
             <h3 style={{textAlign: "center"}}>{group[0]}</h3>
             <ul>
             {group[1].map((node, index) => {
-              return <li key={index}>{node.frontmatter.title}</li>
+              return <li key={index}><i>{node.frontmatter.title}</i>, {node.frontmatter.location}</li>
             })}
             </ul>
             </div>

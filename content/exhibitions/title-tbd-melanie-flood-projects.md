@@ -1,5 +1,6 @@
 ---
-title: Title TBD, Melanie Flood Projects
+title: Title TBD
+location: Melanie Flood Projects
 date: 2020-01-01T05:00:00+00:00
 cover: ''
 works: []
