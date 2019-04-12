@@ -103,6 +103,10 @@ nav a.info:hover {
 }
 
 .exhibition-nav {
+  min-height: 48px;
+}
+
+.exhibition-nav a {
   font-family: "Helvetica LT W01 Narrow";
   display: inline-block;
   font-size: 40px;

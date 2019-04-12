@@ -35,12 +35,12 @@ export default ({ data, pageContext }) => {
           />
         ))}
       </div>
-      <div>
+      <div className="exhibition-nav">
           {pageContext.previous && 
-            <Link className="exhibition-nav" to={pageContext.previous.slug}>prev</Link> 
+            <Link to={pageContext.previous.slug}>prev</Link> 
           }
           {pageContext.next && 
-            <Link className="exhibition-nav" style={{ float: "right"}} to={pageContext.next.slug}>next</Link>
+            <Link style={{ float: "right"}} to={pageContext.next.slug}>next</Link>
           }
         </div>
     </Layout>
