@@ -25,9 +25,8 @@ export default ({ data, pageContext }) => {
   }
 
   return (
-    <Layout>
+    <Layout subtitle={exhibition.frontmatter.title}>
       <div className="exhibition">
-        <h1>{exhibition.frontmatter.title}</h1>
         {exhibition.frontmatter.works.map((work, index) => (
           <NonStretchedImage
             className="exhibition-image"

@@ -31,6 +31,12 @@ body {
   vertical-align: top;
 }
 
+.header-subtitle {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
 .layout-wrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -171,13 +177,6 @@ a:hover {
 
 .solo-exhibitions li {
   font-family: "Times NR MT W01 Condensed";
-}
-
-.exhibition h1 {
-  text-align: center;
-  margin-bottom: 20px;
-  font-size: 40px;
-  line-height: 1.2em;
 }
 
 .flexbox-container{
