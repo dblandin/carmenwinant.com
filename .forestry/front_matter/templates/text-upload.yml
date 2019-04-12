@@ -20,6 +20,7 @@ fields:
   name: file
   label: File
 pages:
+- content/text/the-artist-is-the-athlete-investigating-practice-in-matthew-barney-s-drawing-restrain-1-6.md
 - content/text/practice-wounds-mitchell-squire-white-cube-catalog.md
 - content/text/white-petals-surround-your-yellow-heart.md
 - content/text/second-nature-abstract-photography-then-and-now.md
@@ -31,7 +32,6 @@ pages:
 - content/text/mother-mother.md
 - content/text/jason-lazarus.md
 - content/text/xavier-cha.md
-- content/text/the-artist-is-the-athlete-investigating-practice-in-matthew-barney-s-drawing-restrain-1-6.md
 - content/text/sanja-ivekovic-sweet-violence.md
 - content/text/mary-kelly.md
 - content/text/on-procrastination.md
