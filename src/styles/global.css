@@ -38,6 +38,7 @@ body {
 }
 
 .layout-wrapper {
+  padding: 10px 0;
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -80,6 +81,14 @@ body {
 .headroom {
   background-color: #fff;
   padding: 10px 0;
+}
+
+nav a.text:hover ~ span {
+  padding-left: 10px;
+}
+
+nav a.info:hover {
+  margin-left: 10px;
 }
 
 .header {

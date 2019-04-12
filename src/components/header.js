@@ -10,11 +10,11 @@ export const Header = ({ subtitle }) => (
       </div>
       <div className="box">
         <nav>
-          <Link style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/text">
+          <Link className="text" style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/text">
             text
           </Link>
-          <span>&nbsp;&mdash;&nbsp;</span>
-          <Link style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/info">
+          <span>&mdash;</span>
+          <Link className="info" style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/info">
             info
           </Link>
         </nav>
