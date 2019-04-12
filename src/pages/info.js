@@ -50,7 +50,7 @@ export default props => (
     `}
     render={data => 
   <Layout>
-    <div className="flexbox-container">
+    <div className="info-page flexbox-container">
       <div className="left">
         <h2>bio</h2>
         <p className="bio">{data.pagesYaml.bio}</p>
