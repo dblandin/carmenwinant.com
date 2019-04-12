@@ -21,7 +21,7 @@ export default ({ data }) => {
   const TextLink = props => (
     <a href={props.url || "/"}>
       <li>
-        <p>{props.title}</p>
+        <p>{props.title}{props.source && <i>, {props.source}</i>}</p>
         <p>({props.type})</p>
       </li>
     </a>
@@ -40,6 +40,7 @@ export default ({ data }) => {
               return <TextLink
                 url={node.frontmatter.url || node.frontmatter.file.publicURL}
                 title={node.frontmatter.title}
+                source={node.frontmatter.source}
                 type={node.frontmatter.url ? "url" : "pdf"}
                 key={index}
               /> 
@@ -61,6 +62,7 @@ export const query = graphql`
         node {
           frontmatter {
             title
+            source
             file {
               publicURL
             }
