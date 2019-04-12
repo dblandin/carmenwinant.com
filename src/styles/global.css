@@ -254,7 +254,7 @@ a:hover {
 @media screen and (max-width: 650px) {
   .home-exhibition-wrapper .title-wrapper {
     bottom: 0;
-    opacity: .8;
+    opacity: .9;
     margin: 0;
     padding-bottom: 10px;
   }
