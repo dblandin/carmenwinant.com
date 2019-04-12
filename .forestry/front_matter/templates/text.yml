@@ -19,6 +19,8 @@ fields:
   name: url
   label: URL
 pages:
+- content/text/the-influence-and-legacy-of-larry-sultan.md
+- content/text/matthew-northridge.md
 - content/text/summer-shows-in-nyc.md
 - content/text/eyes-that-are-like-two-suns-collaboration-with-luke-stettner.md
 - content/text/heimrad-backer.md
@@ -52,7 +54,6 @@ pages:
 - content/text/brock-enright.md
 - content/text/sherrie-levine.md
 - content/text/open-studios.md
-- content/text/matthew-northridge.md
 - content/text/jean-luc-moulene.md
 - content/text/mel-bochner.md
 - content/text/thomas-beard-and-ed-halter.md
@@ -68,7 +69,6 @@ pages:
 - content/text/samira-yamin.md
 - content/text/highlights-2013.md
 - content/text/holt-quentel.md
-- content/text/the-influence-and-legacy-of-larry-sultan.md
 - content/text/colter-jacobsen.md
 - content/text/richard-ross-juveniles-in-justice.md
 - content/text/the-sun-places-in-the-abyss.md

@@ -20,6 +20,7 @@ fields:
   name: file
   label: File
 pages:
+- content/text/practice-wounds-mitchell-squire-white-cube-catalog.md
 - content/text/white-petals-surround-your-yellow-heart.md
 - content/text/second-nature-abstract-photography-then-and-now.md
 - content/text/harry-callahan-at-100.md
@@ -27,7 +28,6 @@ pages:
 - content/text/the-process-leigh-ledare.md
 - content/text/curtis-mann-catalog.md
 - content/text/in-conversation-with-curtis-mann.md
-- content/text/practice-wounds-mitchell-squire-white-cube-catalog.md
 - content/text/mother-mother.md
 - content/text/jason-lazarus.md
 - content/text/xavier-cha.md
