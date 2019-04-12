@@ -221,12 +221,13 @@ a:hover {
 
 .flexbox-container li {
   width: 100%;
-
   font-size: 36px;
 }
 
 .solo-exhibitions li {
   font-family: "Times NR MT W01 Condensed";
+  text-indent: -48px;
+  padding-left: 48px;
 }
 
 .bio, .contact, .website {
