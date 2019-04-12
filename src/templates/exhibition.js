@@ -26,6 +26,9 @@ export default ({ data, pageContext }) => {
 
   return (
     <Layout subtitle={exhibition.frontmatter.title}>
+      <Helmet>
+        <title>Carmen Winant - {exhibition.frontmatter.title}</title>
+      </Helmet>
       <div className="exhibition">
         {exhibition.frontmatter.works.map((work, index) => (
           <NonStretchedImage

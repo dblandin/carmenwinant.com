@@ -51,6 +51,9 @@ export default props => (
     `}
     render={data => 
   <Layout>
+    <Helmet>
+      <title>Carmen Winant - Info</title>
+    </Helmet>
     <div className="info-page flexbox-container">
       <div className="left">
         <h2>bio</h2>

@@ -28,8 +28,10 @@ export default ({ data }) => {
   )
 
   return (
-    <>
-      <Layout>
+    <Layout>
+      <Helmet>
+        <title>Carmen Winant - Text</title>
+      </Helmet>
       <div className="page-text">
         {Object.entries(groupedText(data)).reverse().map((group, index) => {
           return (
@@ -50,8 +52,7 @@ export default ({ data }) => {
           )
         })}
       </div>
-      </Layout>
-    </>
+    </Layout>
   )
 }
 
