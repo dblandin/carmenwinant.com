@@ -10,8 +10,8 @@ export default ({ children }) => (
     <title>Carmen Winant</title>
     <link rel="canonical" href="https://carmenwinant.com" />
   </Helmet>
-  <Header />
   <div className="layout-wrapper">
+    <Header />
     <div className="content">{children}</div>
   </div>
   </>

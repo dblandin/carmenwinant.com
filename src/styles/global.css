@@ -15,6 +15,15 @@
     src:url("../fonts/5596199/86e210fa-5fc3-4ac7-a1be-4851cc4b3a3c.eot?#iefix") format("eot"),url("../fonts/5596199/2484adb2-fa39-4a13-bb1b-dde750de3b8c.woff2") format("woff2"),url("../fonts/5596199/d650bce7-6443-4b20-b6bf-b67523baccb6.woff") format("woff"),url("../fonts/5596199/b6c72bb5-adc4-41a6-b150-2af67fd9b4f2.ttf") format("truetype");
 }
 
+body {
+  margin: 0;
+}
+
+.headroom--pinned {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .home-exhibition-wrapper {
   width: 48%;
   margin: 30px 1% 30px 1%;
@@ -71,7 +80,11 @@
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  width: 800px;
+}
+
+.header .box {
+  width: 50%;
+  text-align: center;
 }
 
 .exhibition-nav {
@@ -236,6 +249,11 @@ a:hover {
     padding-bottom: 10px;
   }
 
+  .header .box {
+    width: 100%;
+    text-align: center;
+  }
+
   .home-exhibition-wrapper {
     margin: 10px 0;
   }
@@ -255,10 +273,6 @@ a:hover {
     display: block;
     max-width: 100%;
     padding: 0;
-  }
-
-  .header a.home {
-    width: 100% !important;
   }
   
   nav {

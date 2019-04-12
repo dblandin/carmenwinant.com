@@ -5,8 +5,11 @@ import Headroom from "react-headroom"
 export const Header = () => (
   <Headroom>
     <div className="header">
+      <div className="box">
         <Link className="home" style={{ display: "inline-block", textAlign: "center", width: "300px"}} to="/">carmen winant</Link>
-      <nav>
+      </div>
+      <div className="box">
+        <nav>
         <Link style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/text">
           text
         </Link>
@@ -14,7 +17,8 @@ export const Header = () => (
         <Link style={{ display: "inline-block", textAlign: "center", width: "80px"}} activeClassName="active" to="/info">
           info
         </Link>
-      </nav>
+        </nav>
+        </div>
     </div>
   </Headroom>
 )
