@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet"
 
 export default ({ subtitle, children }) => (
   <>
-    <Helmet>
+    <Helmet htmlAttributes={{ lang: "en" }}>
       <meta charSet="utf-8" />
       <title>Carmen Winant</title>
       <link rel="canonical" href="https://carmenwinant.com" />
