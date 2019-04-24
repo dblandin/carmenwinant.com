@@ -1,4 +1,48 @@
 ---
 label: Info Page
 hide_body: true
-fields: []
+fields:
+- name: bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Bio
+- name: gallery
+  type: field_group
+  config: {}
+  fields:
+  - name: display
+    type: text
+    config:
+      required: false
+    label: Display
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  label: Gallery
+- name: contact
+  type: field_group
+  config: {}
+  fields:
+  - name: display
+    type: text
+    config:
+      required: false
+    label: Display
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  label: Contact
+- name: cv
+  type: file
+  config:
+    maxSize: 250
+  label: CV
