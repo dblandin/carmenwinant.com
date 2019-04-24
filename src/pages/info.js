@@ -36,83 +36,116 @@ export default props => (
             }
           }
         }
-        pagesYaml(name: { eq: "Info" }) {
-          bio
-          gallery {
-            display
-            url
-          }
-          contact {
-            display
-            url
+
+        info: allMarkdownRemark(
+          filter: { fileAbsolutePath: { regex: "/info.md/" } }
+        ) {
+          edges {
+            node {
+              frontmatter {
+                bio
+                gallery {
+                  display
+                  url
+                }
+                contact {
+                  display
+                  url
+                }
+                cv {
+                  publicURL
+                }
+              }
+            }
           }
         }
       }
     `}
-    render={data => (
-      <Layout>
-        <Helmet>
-          <title>Carmen Winant - Info</title>
-        </Helmet>
-        <div className="info-page flexbox-container">
-          <div className="left">
-            <h2>bio</h2>
-            <p className="bio">{data.pagesYaml.bio}</p>
+    render={data => {
+      const TextLink = props => (
+        <a href={props.url || "/"}>
+          <li>
+            <p>
+              {props.title}
+              {props.source && <i>, {props.source}</i>}
+            </p>
+            <p>({props.type})</p>
+          </li>
+        </a>
+      )
 
-            <h2>contact</h2>
-            <ul className="contact">
-              <li>
-                gallery&nbsp;&ndash;&nbsp;
-                <a href={data.pagesYaml.gallery.url}>
-                  {data.pagesYaml.gallery.display}
-                </a>
-              </li>
-              <li>
-                studio&nbsp;&ndash;&nbsp;
-                <a href={data.pagesYaml.contact.url}>
-                  {data.pagesYaml.contact.display}
-                </a>
-              </li>
-            </ul>
+      console.log(data)
+      const info = data.info.edges[0].node.frontmatter
 
-            <h2>website</h2>
-            <ul className="website">
-              <li>
-                design&nbsp;&ndash;&nbsp;
-                <a href="http://wax-studios.com">Wax Studios</a>
-              </li>
-              <li>
-                development&nbsp;&ndash;&nbsp;
-                <a href="https://twitter.com/dblandin">Devon Blandin</a>
-              </li>
-            </ul>
+      return (
+        <Layout>
+          <Helmet>
+            <title>Carmen Winant - Info</title>
+          </Helmet>
+          <div className="info-page flexbox-container">
+            <div className="left">
+              <h2>bio</h2>
+              <p className="bio">{info.bio}</p>
+
+              <ul className="download-cv">
+                <TextLink
+                  title="Download CV"
+                  url={info.cv.publicURL}
+                  type="pdf"
+                />
+              </ul>
+
+              <h2>contact</h2>
+              <ul className="contact">
+                <li>
+                  gallery&nbsp;&ndash;&nbsp;
+                  <a href={info.gallery.url}>{info.gallery.display}</a>
+                </li>
+                <li>
+                  studio&nbsp;&ndash;&nbsp;
+                  <a href={info.contact.url}>{info.contact.display}</a>
+                </li>
+              </ul>
+
+              <h2>website</h2>
+              <ul className="website">
+                <li>
+                  design&nbsp;&ndash;&nbsp;
+                  <a href="http://wax-studios.com">Wax Studios</a>
+                </li>
+                <li>
+                  development&nbsp;&ndash;&nbsp;
+                  <a href="https://twitter.com/dblandin">Devon Blandin</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="right solo-exhibitions">
+              <h2>solo exhibitions</h2>
+
+              {Object.entries(groupedText(data))
+                .reverse()
+                .map((group, index) => {
+                  return (
+                    <div key={index}>
+                      <h3 style={{ textAlign: "center" }}>{group[0]}</h3>
+                      <ul>
+                        {group[1].map((node, index) => {
+                          return (
+                            <li key={index}>
+                              <i>{node.frontmatter.title}</i>,{" "}
+                              {node.frontmatter.location}
+                            </li>
+                          )
+                        })}
+                      </ul>
+                    </div>
+                  )
+                })}
+            </div>
           </div>
-
-          <div className="right solo-exhibitions">
-            <h2>solo exhibitions</h2>
-
-            {Object.entries(groupedText(data))
-              .reverse()
-              .map((group, index) => {
-                return (
-                  <div key={index}>
-                    <h3 style={{ textAlign: "center" }}>{group[0]}</h3>
-                    <ul>
-                      {group[1].map((node, index) => {
-                        return (
-                          <li key={index}>
-                            <i>{node.frontmatter.title}</i>,{" "}
-                            {node.frontmatter.location}
-                          </li>
-                        )
-                      })}
-                    </ul>
-                  </div>
-                )
-              })}
-          </div>
-        </div>
-      </Layout>
-    )}
+        </Layout>
+      )
+    }}
   />
 )

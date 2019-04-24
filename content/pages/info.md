@@ -13,3 +13,5 @@ contact:
   display: info@carmenwinant.com
   url: mailto:info@carmenwinant.com
 cv: "/content/assets/carmen-winant-cv.pdf"
+
+---

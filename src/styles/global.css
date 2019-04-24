@@ -217,6 +217,10 @@ a:hover {
   margin: 20px 0 40px 0;
 }
 
+.info-page .download-cv {
+  font-family: "Helvetica LT W01 Narrow";
+}
+
 .flexbox-container p {
   font-size: 36px;
 }

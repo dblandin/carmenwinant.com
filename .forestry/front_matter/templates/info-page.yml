@@ -47,4 +47,4 @@ fields:
     maxSize: 250
   label: CV
 pages:
-- content/pages/info.yml
+- content/pages/info.md
