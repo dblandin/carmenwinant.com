@@ -183,6 +183,10 @@ a:hover {
   margin-bottom: 20px !important;
 }
 
+.page-text, .page-info {
+  padding: 0 10px;
+}
+
 .page-text h2 {
   font-size: 40px;
   line-height: 1.2em;
@@ -216,11 +220,11 @@ a:hover {
   line-height: 1.2em;
 }
 
-.info-page h2 {
+.page-info h2 {
   margin: 20px 0 40px 0;
 }
 
-.info-page .download-cv {
+.page-info .download-cv {
   padding: 0;
   font-family: "Helvetica LT W01 Narrow";
 }

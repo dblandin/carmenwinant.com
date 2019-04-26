@@ -82,7 +82,7 @@ export default props => (
             <title>Carmen Winant - Info</title>
             <meta name="description" content={info.bio} />
           </Helmet>
-          <div className="info-page flexbox-container">
+          <div className="page-info flexbox-container">
             <div className="left">
               <h2>bio</h2>
               <p className="bio">{info.bio}</p>
