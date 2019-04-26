@@ -74,13 +74,13 @@ export default props => (
         </a>
       )
 
-      console.log(data)
       const info = data.info.edges[0].node.frontmatter
 
       return (
         <Layout>
           <Helmet>
             <title>Carmen Winant - Info</title>
+            <meta name="description" content={info.bio} />
           </Helmet>
           <div className="info-page flexbox-container">
             <div className="left">

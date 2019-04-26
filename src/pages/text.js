@@ -30,10 +30,13 @@ export default ({ data }) => {
     </a>
   )
 
+  const info = data.info.edges[0].node.frontmatter
+
   return (
     <Layout>
       <Helmet>
         <title>Carmen Winant - Text</title>
+        <meta name="description" content={info.bio} />
       </Helmet>
       <div className="page-text">
         {Object.entries(groupedText(data))
@@ -79,6 +82,18 @@ export const query = graphql`
             }
             url
             date
+          }
+        }
+      }
+    }
+
+    info: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/info.md/" } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            bio
           }
         }
       }

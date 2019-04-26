@@ -24,10 +24,13 @@ export default ({ data, pageContext }) => {
     return <Img {...normalizedProps} />
   }
 
+  const info = data.info.edges[0].node.frontmatter
+
   return (
     <Layout subtitle={exhibition.frontmatter.title}>
       <Helmet>
         <title>Carmen Winant - {exhibition.frontmatter.title}</title>
+        <meta name="description" content={info.bio} />
       </Helmet>
       <div className="exhibition">
         {exhibition.frontmatter.works.map((work, index) => (
@@ -67,6 +70,18 @@ export const query = graphql`
                 presentationWidth
               }
             }
+          }
+        }
+      }
+    }
+
+    info: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/info.md/" } }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            bio
           }
         }
       }
