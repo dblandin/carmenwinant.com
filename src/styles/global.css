@@ -1,16 +1,19 @@
 @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=6adc6e88-77a2-4492-baaa-df37b767fa80&fontids=1566264,5596187,5596199");
 @font-face{
     font-family:"Helvetica LT W01 Narrow";
+    font-display: auto;
     src:url("../fonts/1566264/03774a0a-100d-4424-922a-d2fabd124335.eot?#iefix");
     src:url("../fonts/1566264/03774a0a-100d-4424-922a-d2fabd124335.eot?#iefix") format("eot"),url("../fonts/1566264/d9174fff-293c-4d3c-9480-438cfec8ba57.woff2") format("woff2"),url("../fonts/1566264/3c6ab608-39c8-4a90-849c-c2a32ea0a949.woff") format("woff"),url("../fonts/1566264/aa9c4bc8-291a-42db-b84d-f84c23fa7c79.ttf") format("truetype");
 }
 @font-face{
     font-family:"Times NR MT W01 Condensed";
+    font-display: auto;
     src:url("../fonts/5596187/ae684fd3-8f0f-466a-9812-92a1efa3d6e0.eot?#iefix");
     src:url("../fonts/5596187/ae684fd3-8f0f-466a-9812-92a1efa3d6e0.eot?#iefix") format("eot"),url("../fonts/5596187/38e77024-897d-4c97-84ec-dae066006216.woff2") format("woff2"),url("../fonts/5596187/41d7b35a-15ba-4fb4-8a15-ca13718d6dfc.woff") format("woff"),url("../fonts/5596187/a7b77449-3cf8-44fa-a250-103072df8efd.ttf") format("truetype");
 }
 @font-face{
     font-family:"Times NR MT W01 Condensed It";
+    font-display: auto;
     src:url("../fonts/5596199/86e210fa-5fc3-4ac7-a1be-4851cc4b3a3c.eot?#iefix");
     src:url("../fonts/5596199/86e210fa-5fc3-4ac7-a1be-4851cc4b3a3c.eot?#iefix") format("eot"),url("../fonts/5596199/2484adb2-fa39-4a13-bb1b-dde750de3b8c.woff2") format("woff2"),url("../fonts/5596199/d650bce7-6443-4b20-b6bf-b67523baccb6.woff") format("woff"),url("../fonts/5596199/b6c72bb5-adc4-41a6-b150-2af67fd9b4f2.ttf") format("truetype");
 }
