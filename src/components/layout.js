@@ -12,7 +12,7 @@ export default ({ subtitle, children }) => (
     </Helmet>
     <div className="layout-wrapper">
       <Header subtitle={subtitle} />
-      <div className="content">{children}</div>
+      <main className="content">{children}</main>
     </div>
   </>
 )
