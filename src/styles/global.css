@@ -22,6 +22,10 @@ body {
   margin: 0;
 }
 
+#gatsby-noscript {
+  display: none;
+}
+
 .headroom--pinned {
   max-width: 1280px;
   margin: 0 auto;
