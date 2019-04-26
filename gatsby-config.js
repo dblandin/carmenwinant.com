@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/carmenwinant",
   plugins: [
     `gatsby-transformer-yaml`,
     {
