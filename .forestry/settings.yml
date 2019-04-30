@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: content/pages/info.yml
+  path: content/pages/info.md
   label: Info Page
 - type: directory
   path: content/text
