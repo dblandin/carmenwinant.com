@@ -46,3 +46,5 @@ fields:
   config:
     maxSize: 250
   label: CV
+pages:
+- content/pages/info.md

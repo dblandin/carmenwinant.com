@@ -12,6 +12,6 @@ gallery:
 contact:
   display: info@carmenwinant.com
   url: mailto:info@carmenwinant.com
-cv: "/content/assets/carmen-winant-cv.pdf"
+cv: "/content/assets/Winant CV 2019.pdf"
 
 ---
