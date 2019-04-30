@@ -208,13 +208,9 @@ a:hover {
   padding: 20px 10px 10px 10px;
 }
 
-.solo-exhibitions li {
-  font-family: "Times NR MT W01 Condensed";
-}
-
 .flexbox-container{
-	display: flex;
-	width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .flexbox-container h2, .flexbox-container h3 {
@@ -248,10 +244,13 @@ a:hover {
   font-size: 36px;
 }
 
+.solo-exhibitions {
+  padding-left: 48px;
+}
+
 .solo-exhibitions li {
   font-family: "Times NR MT W01 Condensed";
   text-indent: -48px;
-  padding-left: 48px;
 }
 
 .bio, .contact, .website {
@@ -259,20 +258,17 @@ a:hover {
 }
 
 .left{
-  width: 200px;
-	order: 1;
-	flex: 1;
   flex-basis: auto;
+  flex: 1;
   order: 1;
-	flex: 1;
   padding-right: 60px;
+  width: 200px;
 }
 
-.right{
-  padding-left: 60px;
+.right {
   width: 200px;
-	order: 1;
-	flex: 1;
+  order: 1;
+  flex: 1;
   padding: .5rem;
 }
 
