@@ -285,6 +285,10 @@ a:hover {
     text-align: center;
   }
 
+  .page-text, .page-info {
+    padding: 0;
+  }
+
   .home-exhibition-wrapper {
     margin: 10px 0;
   }
@@ -305,7 +309,7 @@ a:hover {
     max-width: 100%;
     padding: 0;
   }
-  
+
   nav {
     width: 100%;
     float: none;
@@ -314,5 +318,17 @@ a:hover {
 
   .exhibition h1 {
     padding-bottom: 20px;
+  }
+
+  .solo-exhibitions {
+    padding-left: 0;
+  }
+
+  .solo-exhibitions li {
+    text-indent: 0;
+  }
+
+  .left{
+    padding-right: 0;
   }
 }
