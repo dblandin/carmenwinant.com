@@ -17,6 +17,18 @@ const groupedText = data => {
   return groups
 }
 
+// https://stackoverflow.com/a/45851440
+if (!Object.entries) {
+  Object.entries = function(obj) {
+    var ownProps = Object.keys(obj),
+      i = ownProps.length,
+      resArray = new Array(i) // preallocate the Array
+    while (i--) resArray[i] = [ownProps[i], obj[ownProps[i]]]
+
+    return resArray
+  }
+}
+
 export default ({ data }) => {
   const TextLink = props => (
     <a href={props.url || "/"}>
