@@ -15,6 +15,8 @@ fields:
   label: Date
   config:
     required: true
+    export_format: YYYY-MM-DDTHH:mm:ss.sssZ
+  default: now
 - type: file
   name: cover
   label: cover
