@@ -15,7 +15,8 @@ fields:
   label: Date
   config:
     required: true
-  default: '2019-04-01T19:37:36Z'
+    export_format: YYYY-MM-DDTHH:mm:ss.sssZ
+  default: now
 - type: file
   name: file
   label: File
