@@ -33,6 +33,12 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-4170833-3",
+      },
+    },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-remove-trailing-slashes`,
   ],
