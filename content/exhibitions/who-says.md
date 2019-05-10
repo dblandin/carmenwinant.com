@@ -14,7 +14,7 @@ works:
   image: "/content/assets/who-says-4.jpg"
 - title: Who Says
   image: "/content/assets/who-says-5.jpg"
-date: 2019-03-05 16:12:44 +0000
+date: 2019-03-05T16:12:44.000+00:00
 featured: true
 solo: false
 

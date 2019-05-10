@@ -1,7 +1,7 @@
 ---
 title: Expressions Of
 location: 17 Essex, New York, NY
-date: 2019-01-01T05:00:00+00:00
+date: 2019-01-01T05:00:00.000+00:00
 cover: ''
 works: []
 featured: false
