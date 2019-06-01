@@ -1,5 +1,5 @@
 ---
-title: Anita Told The Truth
+title: Anita Told The Truth, Volta NY
 cover: "/content/assets/Winant_Volta_6-test.jpg"
 works:
 - title: Anita
