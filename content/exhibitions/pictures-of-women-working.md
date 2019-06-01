@@ -4,7 +4,7 @@ title: Pictures of Women Working
 location: Columbus Museum of Art
 cover: "/content/assets/Winant_CMA_3-test.jpg"
 works: []
-featured: false
+featured: true
 solo: false
 
 ---
