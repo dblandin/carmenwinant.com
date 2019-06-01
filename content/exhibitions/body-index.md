@@ -1,6 +1,6 @@
 ---
 title: Body Index
-cover: "/content/assets/body-index-0.jpg"
+cover: "/content/assets/Winant_Stene_15.jpg"
 works:
 - title: Body/Index installation view
   image: "/content/assets/Winant_Stene_1.jpg"
