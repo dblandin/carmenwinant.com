@@ -1,5 +1,5 @@
 ---
-title: Body Index
+title: Body/Index, Stene Projects
 cover: "/content/assets/Winant_Stene_15-test.jpg"
 works:
 - image: ''
