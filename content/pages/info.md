@@ -5,8 +5,8 @@ gallery:
   display: ''
   url: ''
 contact:
-  display: info@carmenwinant.com
-  url: mailto:info@carmenwinant.com
+  display: ''
+  url: ''
 cv: "/content/assets/Winant CV 2019.pdf"
 
 ---
