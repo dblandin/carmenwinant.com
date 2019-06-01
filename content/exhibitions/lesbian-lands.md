@@ -1,6 +1,6 @@
 ---
-title: Lesbian Lands
-cover: "/content/assets/Winant_CMA_6-test.jpg"
+title: Lesbian Lands, Columbus Museum of Art
+cover: "/content/assets/Winant_CMA_6-test-1.jpg"
 works:
 - title: Lesbian Lands
   image: "/content/assets/lesbian-lands-0.jpg"
@@ -29,6 +29,6 @@ works:
 date: 2019-03-05T16:12:44.000+00:00
 featured: true
 solo: false
-location: ''
+location: Columbus Museum of Art
 
 ---
