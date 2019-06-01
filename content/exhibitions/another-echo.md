@@ -1,6 +1,6 @@
 ---
 title: Another Echo, Sculpture Center
-cover: "/content/assets/cover.jpg"
+cover: "/content/assets/Winant_SculptureCenter_5.jpg"
 works:
 - title: Another Echo
   image: "/content/assets/another-echo-0.jpg"
