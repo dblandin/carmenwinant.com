@@ -7,7 +7,7 @@ works:
 - title: White Ink
   image: "/content/assets/CW_WhiteInk_Composite_MR.jpg"
   description: ''
-featured: false
+featured: true
 solo: false
 
 ---
