@@ -1,21 +1,28 @@
 ---
 title: The Answer Is Matriarchy
-cover: "/content/assets/the-answer-is-matriarchy-0.jpg"
+cover: "/content/assets/cover-1.jpg"
 works:
 - title: The Answer Is Matriarchy
   image: "/content/assets/the-answer-is-matriarchy-0.jpg"
+  description: ''
 - title: The Answer Is Matriarchy
   image: "/content/assets/the-answer-is-matriarchy-1.jpg"
+  description: ''
 - title: The Answer Is Matriarchy
   image: "/content/assets/the-answer-is-matriarchy-2.jpg"
+  description: ''
 - title: The Answer Is Matriarchy
   image: "/content/assets/the-answer-is-matriarchy-3.jpg"
+  description: ''
 - title: The Answer Is Matriarchy
   image: "/content/assets/the-answer-is-matriarchy-4.jpg"
+  description: ''
 - title: The Answer Is Matriarchy
   image: "/content/assets/the-answer-is-matriarchy-5.jpg"
+  description: ''
 date: 2019-03-05T16:12:44.000+00:00
 featured: true
 solo: false
+location: ''
 
 ---
