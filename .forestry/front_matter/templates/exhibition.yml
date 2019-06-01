@@ -46,6 +46,7 @@ fields:
   label: Solo Show
   description: Show in Info Page Solo Exhibitions section
 pages:
+- content/exhibitions/white-ink.md
 - content/exhibitions/my-birth.md
 - content/exhibitions/daegu-photography-biennial.md
 - content/exhibitions/body-index.md
