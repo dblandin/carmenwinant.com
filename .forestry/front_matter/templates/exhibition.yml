@@ -46,24 +46,24 @@ fields:
   label: Solo Show
   description: Show in Info Page Solo Exhibitions section
 pages:
-- content/exhibitions/camouflage.md
-- content/exhibitions/daegu-photography-biennial.md
-- content/exhibitions/body-index.md
-- content/exhibitions/my-birth.md
-- content/exhibitions/anita-told-the-truth.md
-- content/exhibitions/looking-forward.md
-- content/exhibitions/lesbian-lands.md
-- content/exhibitions/title-tbd-fortnight-institute.md
-- content/exhibitions/with-child-carmen-winant-and-otto-dix-worcester-museum-of-art.md
-- content/exhibitions/title-tbd-14a-hamburg-germany.md
-- content/exhibitions/body-index-stene-projects-stockhom-sweden.md
-- content/exhibitions/nada.md
-- content/exhibitions/w-a-r-cave-detroit-mi.md
-- content/exhibitions/who-says.md
-- content/exhibitions/expressions-of-17-essex-new-york-ny.md
-- content/exhibitions/another-echo.md
-- content/exhibitions/post-concussion.md
-- content/exhibitions/printed-matter.md
-- content/exhibitions/women-working.md
-- content/exhibitions/the-answer-is-matriarchy.md
 - content/exhibitions/title-tbd-melanie-flood-projects.md
+- content/exhibitions/printed-matter.md
+- content/exhibitions/the-answer-is-matriarchy.md
+- content/exhibitions/women-working.md
+- content/exhibitions/post-concussion.md
+- content/exhibitions/another-echo.md
+- content/exhibitions/expressions-of-17-essex-new-york-ny.md
+- content/exhibitions/who-says.md
+- content/exhibitions/w-a-r-cave-detroit-mi.md
+- content/exhibitions/nada.md
+- content/exhibitions/body-index-stene-projects-stockhom-sweden.md
+- content/exhibitions/title-tbd-14a-hamburg-germany.md
+- content/exhibitions/with-child-carmen-winant-and-otto-dix-worcester-museum-of-art.md
+- content/exhibitions/title-tbd-fortnight-institute.md
+- content/exhibitions/lesbian-lands.md
+- content/exhibitions/looking-forward.md
+- content/exhibitions/anita-told-the-truth.md
+- content/exhibitions/my-birth.md
+- content/exhibitions/body-index.md
+- content/exhibitions/daegu-photography-biennial.md
+- content/exhibitions/camouflage.md
