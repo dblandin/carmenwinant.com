@@ -1,6 +1,6 @@
 ---
 title: Camouflage
-cover: "/content/assets/camouflage-0.jpg"
+cover: "/content/assets/Winant_Stene_5.jpg"
 date: 2019-03-05T00:55:41.000+00:00
 works:
 - title: Camouflage, installation view, 2017
@@ -27,5 +27,6 @@ works:
   description: Ceramic, found photographs, watercolor
 featured: true
 solo: false
+location: ''
 
 ---
