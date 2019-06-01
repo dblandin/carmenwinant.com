@@ -46,6 +46,7 @@ fields:
   label: Solo Show
   description: Show in Info Page Solo Exhibitions section
 pages:
+- content/exhibitions/body-index.md
 - content/exhibitions/title-tbd-melanie-flood-projects.md
 - content/exhibitions/printed-matter.md
 - content/exhibitions/the-answer-is-matriarchy.md
@@ -64,6 +65,5 @@ pages:
 - content/exhibitions/looking-forward.md
 - content/exhibitions/anita-told-the-truth.md
 - content/exhibitions/my-birth.md
-- content/exhibitions/body-index.md
 - content/exhibitions/daegu-photography-biennial.md
 - content/exhibitions/camouflage.md
