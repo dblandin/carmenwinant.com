@@ -46,6 +46,7 @@ fields:
   label: Solo Show
   description: Show in Info Page Solo Exhibitions section
 pages:
+- content/exhibitions/my-birth.md
 - content/exhibitions/daegu-photography-biennial.md
 - content/exhibitions/body-index.md
 - content/exhibitions/camouflage.md
@@ -62,4 +63,3 @@ pages:
 - content/exhibitions/title-tbd-14a-hamburg-germany.md
 - content/exhibitions/with-child-carmen-winant-and-otto-dix-worcester-museum-of-art.md
 - content/exhibitions/anita-told-the-truth.md
-- content/exhibitions/my-birth.md
