@@ -1,6 +1,6 @@
 ---
 title: Another Echo
-cover: "/content/assets/Winant_SculptureCenter_1.jpg"
+cover: "/content/assets/cover.jpg"
 works:
 - title: Another Echo
   image: "/content/assets/another-echo-0.jpg"
