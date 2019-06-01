@@ -1,13 +1,13 @@
 ---
 title: Anita Told The Truth
-cover: "/content/assets/anita-told-the-truth-0.jpg"
+cover: "/content/assets/Winant_Volta_6-test.jpg"
 works:
-- title: How to testify (injury repose)
-  image: "/content/assets/Winant_Volta_1.jpg"
+- title: Anita
+  image: ''
   description: ''
 date: 2019-03-05T16:12:44.000+00:00
 featured: true
 solo: false
-location: ''
+location: Volta NYC
 
 ---
