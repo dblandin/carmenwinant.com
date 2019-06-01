@@ -1,6 +1,6 @@
 ---
 title: Camouflage, Stene Projects
-cover: "/content/assets/Winant_Stene_5-2.jpg"
+cover: "/content/assets/Winant_Stene_5-3.jpg"
 date: 2019-03-05T00:55:41.000+00:00
 works:
 - title: Camouflage, installation view, 2017
