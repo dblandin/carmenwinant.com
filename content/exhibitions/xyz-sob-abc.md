@@ -4,6 +4,12 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/Winant_Contact_test.jpg"
 works:
+- title: XYZ-SOB-ABC/ No trespassing
+  image: "/content/assets/Trespassing1.jpg"
+  description: ''
+- title: XYZ-SOB-ABC (preterm)
+  image: "/content/assets/7A2A3399.jpg"
+  description: ''
 - title: XYZ-SOB-ABC/Being Pushed 2 (farther out)
   image: "/content/assets/7A2A3383.jpg"
   description: ''
