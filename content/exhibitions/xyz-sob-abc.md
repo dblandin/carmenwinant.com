@@ -4,7 +4,7 @@ title: XYZ-SOB-ABC
 location: Toronto, CN
 cover: "/content/assets/Winant_Contact_test.jpg"
 works: []
-featured: false
+featured: true
 solo: false
 
 ---
