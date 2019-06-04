@@ -2,7 +2,7 @@
 date: 2001-06-01T04:00:00.000+00:00
 title: Pictures of Women Working
 location: Columbus Museum of Art
-cover: "/content/assets/Winant_Poww-1.jpg"
+cover: "/content/assets/Winant_PPOWcover.jpg"
 works: []
 featured: true
 solo: false
