@@ -4,6 +4,9 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/Winant_Contact_test.jpg"
 works:
+- title: XYZ-SOB-ABC/ Dundas st.
+  image: "/content/assets/_HA_0878.jpg"
+  description: ''
 - title: XYZ-SOB-ABC/ Freedom
   image: "/content/assets/_HA_0463.jpg"
   description: ''
