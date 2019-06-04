@@ -2,6 +2,9 @@
 title: The Answer Is Matriarchy, Wexner Center for the Arts
 cover: "/content/assets/Winant_Wexner_5.jpg"
 works:
+- title: Wex close up 2
+  image: "/content/assets/Winant_Wexner_3.jpg"
+  description: ''
 - title: Wex close up 1
   image: "/content/assets/DSC02585.jpg"
   description: ''
