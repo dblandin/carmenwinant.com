@@ -4,6 +4,12 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/Winant_Contact_test.jpg"
 works:
+- title: XYZ-SOB-ABC/ Being pushed
+  image: "/content/assets/7A2A3385.jpg"
+  description: ''
+- title: XYZ-SOB-ABC/ Daycare + A womans place
+  image: "/content/assets/_HA_0733.jpg"
+  description: ''
 - title: XYZ-SOB-ABC/ Dundas st.
   image: "/content/assets/_HA_0878.jpg"
   description: ''
