@@ -1,6 +1,6 @@
 ---
 title: The Answer Is Matriarchy
-cover: "/content/assets/cover-1-1.jpg"
+cover: "/content/assets/Winant_Wexner_5.jpg"
 works:
 - title: The Answer Is Matriarchy
   image: "/content/assets/the-answer-is-matriarchy-0.jpg"
