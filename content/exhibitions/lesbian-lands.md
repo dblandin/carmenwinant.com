@@ -2,6 +2,9 @@
 title: Lesbian Lands, Columbus Museum of Art
 cover: "/content/assets/Winant_CMA_4.jpg"
 works:
+- title: Faraway floor
+  image: "/content/assets/Winant_CMA_3-2.jpg"
+  description: ''
 - title: Overall structure
   image: "/content/assets/Winant_CMA_4-2.jpg"
   description: ''
