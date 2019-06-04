@@ -4,6 +4,9 @@ title: Pictures of Women Working, Columbus Museum of Art
 location: Columbus Museum of Art
 cover: "/content/assets/Pictures of Women Working_Winant_detail.jpg"
 works:
+- title: POWW (woman carrying on head)
+  image: "/content/assets/DSC00397.jpg"
+  description: ''
 - title: POWW Far out install
   image: "/content/assets/WInant_CMA-3.jpg"
   description: ''
