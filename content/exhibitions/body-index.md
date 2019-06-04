@@ -1,6 +1,6 @@
 ---
 title: Body/Index, Stene Projects
-cover: "/content/assets/Winant_Stene_15-test.jpg"
+cover: "/content/assets/Winant_Stene_15-1.jpg"
 works:
 - image: "/content/assets/Winant_Stene_15-test.jpg"
   title: Body/Index
