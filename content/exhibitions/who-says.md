@@ -1,5 +1,5 @@
 ---
-title: Who Says Pain is Erotic?
+title: Who Says Pain is Erotic?, Fortnight Institute (NY)
 cover: "/content/assets/WInant_Fortnight_9-test-2.jpg"
 works:
 - title: Who Says
