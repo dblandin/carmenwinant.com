@@ -1,6 +1,6 @@
 ---
 title: My Birth
-cover: "/content/assets/Winant_MoMA_2-test-1.jpg"
+cover: "/content/assets/Birth-cover.jpg"
 works:
 - title: My Birth
   image: "/content/assets/my-birth-0.jpg"
