@@ -4,6 +4,9 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/Winant_Contact_test.jpg"
 works:
+- title: XYZ-SOB-ABC (Western Civ)
+  image: "/content/assets/Civilization2.jpg"
+  description: ''
 - title: XYZ-SOB-ABC (No trespassing farther out)
   image: "/content/assets/Trespassing3.jpg"
   description: ''
