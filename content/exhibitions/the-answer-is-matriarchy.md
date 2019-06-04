@@ -1,5 +1,5 @@
 ---
-title: The Answer Is Matriarchy
+title: The Answer Is Matriarchy, Wexner Center for the Arts
 cover: "/content/assets/Winant_Wexner_5.jpg"
 works:
 - title: The Answer Is Matriarchy
