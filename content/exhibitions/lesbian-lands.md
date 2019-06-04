@@ -2,6 +2,9 @@
 title: Lesbian Lands, Columbus Museum of Art
 cover: "/content/assets/Winant_CMA_4.jpg"
 works:
+- title: Rug detail
+  image: "/content/assets/DSC04501.jpg"
+  description: ''
 - title: Close up (camera)
   image: "/content/assets/DSC04514.jpg"
   description: ''
