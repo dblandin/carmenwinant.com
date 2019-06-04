@@ -3,6 +3,12 @@ title: Another Echo, Sculpture Center
 cover: "/content/assets/Winant_SC-test-1.jpg"
 works:
 - title: SC
+  image: "/content/assets/Winant_SculptureCenter_1-1.jpg"
+  description: ''
+- title: SC
+  image: "/content/assets/Winant_Sculpture Center_2.jpg"
+  description: ''
+- title: SC
   image: "/content/assets/Winant_Sculpture Center_1.jpg"
   description: ''
 - title: SC
