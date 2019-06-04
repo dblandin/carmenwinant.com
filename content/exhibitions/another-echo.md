@@ -2,26 +2,8 @@
 title: Another Echo, Sculpture Center
 cover: "/content/assets/Winant_SC-test-1.jpg"
 works:
-- title: Another Echo
-  image: "/content/assets/another-echo-0.jpg"
-  description: ''
-- title: Another Echo
-  image: "/content/assets/another-echo-1.jpg"
-  description: ''
-- title: Another Echo
-  image: "/content/assets/another-echo-2.jpg"
-  description: ''
-- title: Another Echo
-  image: "/content/assets/another-echo-3.jpg"
-  description: ''
-- title: Another Echo
-  image: "/content/assets/another-echo-4.jpg"
-  description: ''
-- title: Another Echo
-  image: "/content/assets/another-echo-5.jpg"
-  description: ''
-- title: Another Echo
-  image: "/content/assets/another-echo-6.jpg"
+- title: SC Overall
+  image: "/content/assets/2018_01_25_OHalloran_07(no banister).jpg"
   description: ''
 date: 2019-03-05T16:12:44.000+00:00
 featured: true
