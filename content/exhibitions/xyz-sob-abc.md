@@ -4,7 +4,7 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/Winant_Contact_test.jpg"
 works:
-- title: XYZ-SOB-ABC
+- title: XYZ-SOB-ABC/ Sexism is a social disease
   image: "/content/assets/_HA_0686.jpg"
   description: ''
 featured: true
