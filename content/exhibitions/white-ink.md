@@ -22,9 +22,6 @@ works:
 - title: White Ink
   image: "/content/assets/Winant_White Ink_3.jpg"
   description: ''
-- title: White Ink
-  image: "/content/assets/CW_WhiteInk_Composite_MR.jpg"
-  description: ''
 featured: true
 solo: false
 
