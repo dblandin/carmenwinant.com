@@ -5,6 +5,9 @@ location: Columbus Museum of Art
 cover: "/content/assets/Winant_PPOWcover.jpg"
 works:
 - title: Pictures of Women Working
+  image: "/content/assets/Winant_CMA_5.jpg"
+  description: ''
+- title: Pictures of Women Working
   image: "/content/assets/Winant_CMA_3-1.jpg"
   description: ''
 - title: Pictures of Women Working
