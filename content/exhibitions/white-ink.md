@@ -4,6 +4,9 @@ title: White Ink, Leslie Tonkonow Artwork + Projects
 location: Leslie Tonkonow Artwork + Projects
 cover: "/content/assets/Winant_White Ink_4.jpg"
 works:
+- title: Space 3
+  image: "/content/assets/Winant_White Ink_space3.jpg"
+  description: ''
 - title: Space 2
   image: "/content/assets/Winant_White Ink_space2.jpg"
   description: ''
