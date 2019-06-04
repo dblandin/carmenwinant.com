@@ -1,6 +1,6 @@
 ---
 title: Daegu Photography Biennial
-cover: "/content/assets/Winant_Daegu_5-2.jpg"
+cover: "/content/assets/Winant_Daegucover.jpg"
 works:
 - title: Daegu Photography Biennial
   image: "/content/assets/daegu-photography-biennial-0.jpg"
