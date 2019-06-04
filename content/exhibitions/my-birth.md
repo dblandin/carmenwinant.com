@@ -1,5 +1,5 @@
 ---
-title: My Birth
+title: My Birth, Museum of Modern Art (NY)
 cover: "/content/assets/Birth-cover.jpg"
 works:
 - title: My Birth

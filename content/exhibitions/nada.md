@@ -1,5 +1,5 @@
 ---
-title: Nada
+title: Nada (NY), Skibum McArthur
 cover: "/content/assets/Winant_Nada_4-cover.jpg"
 works:
 - title: Nada
