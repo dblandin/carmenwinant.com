@@ -1,6 +1,6 @@
 ---
 title: Nada
-cover: "/content/assets/Winant_Nada_2-test.jpg"
+cover: "/content/assets/Winant_Nada_2-test-1.jpg"
 works:
 - title: Nada
   image: "/content/assets/nada-0.jpg"
