@@ -4,6 +4,9 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/Winant_Contact_test.jpg"
 works:
+- title: XYZ-SOB-ABC /Who says Pain
+  image: "/content/assets/Pain3.jpg"
+  description: ''
 - title: XYZ-SOB-ABC/ No trespassing
   image: "/content/assets/Trespassing1.jpg"
   description: ''
