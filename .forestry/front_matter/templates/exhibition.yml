@@ -47,6 +47,7 @@ fields:
   description: Show in Info Page Solo Exhibitions section
 pages:
 - content/exhibitions/white-ink.md
+- content/exhibitions/xyz-sob-abc.md
 - content/exhibitions/my-birth.md
 - content/exhibitions/womyn-s-land.md
 - content/exhibitions/camouflage.md
