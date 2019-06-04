@@ -7,6 +7,9 @@ works:
 - title: Pictures of Women Working
   image: "/content/assets/Winant_CMA_4-1.jpg"
   description: ''
+- title: Pictures of Women Working
+  image: "/content/assets/Winant_CMA_1.jpg"
+  description: ''
 featured: true
 solo: false
 
