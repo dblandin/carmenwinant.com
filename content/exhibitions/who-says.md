@@ -1,6 +1,6 @@
 ---
 title: Who Says Pain is Erotic?
-cover: "/content/assets/WInant_Fortnight_9-test.jpg"
+cover: "/content/assets/WInant_Fortnight_9-test-2.jpg"
 works:
 - title: Who Says
   image: "/content/assets/who-says-0.jpg"
