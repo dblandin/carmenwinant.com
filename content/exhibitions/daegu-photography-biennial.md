@@ -1,5 +1,5 @@
 ---
-title: Daegu Photography Biennial
+title: Daegu Photography Biennial, South Korea
 cover: "/content/assets/Winant_Daegucover.jpg"
 works:
 - title: Daegu Photography Biennial
