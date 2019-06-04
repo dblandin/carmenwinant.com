@@ -4,7 +4,7 @@ title: Womyn's Land
 location: Angela Meleca Gallery
 cover: "/content/assets/Winant_Meleca_cover.jpg"
 works: []
-featured: false
+featured: true
 solo: false
 
 ---
