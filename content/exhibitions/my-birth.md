@@ -2,6 +2,9 @@
 title: My Birth, Museum of Modern Art (NY)
 cover: "/content/assets/Birth-cover.jpg"
 works:
+- title: Moma close up
+  image: "/content/assets/IN2396_018_CCCR.jpg"
+  description: ''
 - title: MoMA faraway detail
   image: "/content/assets/IN2396_015_CCCR.jpg"
   description: ''
