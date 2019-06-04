@@ -7,11 +7,11 @@ works:
 - title: XYZ-SOB-ABC (Western Civ)
   image: "/content/assets/Civilization2.jpg"
   description: ''
-- title: XYZ-SOB-ABC (No trespassing farther out)
-  image: "/content/assets/Trespassing3.jpg"
-  description: ''
 - title: XYZ-SOB-ABC /Who says Pain
   image: "/content/assets/Pain3.jpg"
+  description: ''
+- title: XYZ-SOB-ABC (No trespassing farther out)
+  image: "/content/assets/Trespassing3.jpg"
   description: ''
 - title: XYZ-SOB-ABC/ No trespassing
   image: "/content/assets/Trespassing1.jpg"
