@@ -5,6 +5,12 @@ location: Toronto, CN
 cover: "/content/assets/Winant_Contact_test.jpg"
 works:
 - title: XYZ-SOB-ABC
+  image: "/content/assets/Winant_CONTACT_7.jpg"
+  description: ''
+- title: XYZ-SOB-ABC
+  image: "/content/assets/Winant_CONTACT_6.jpg"
+  description: ''
+- title: XYZ-SOB-ABC
   image: "/content/assets/Winant_CONTACT_5.jpg"
   description: ''
 - title: XYZ-SOB-ABC
