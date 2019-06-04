@@ -1,6 +1,6 @@
 ---
 title: Anita Told The Truth, Volta NY
-cover: "/content/assets/Winant_Volta_6-test.jpg"
+cover: "/content/assets/Winant_Volta_5-test.jpg"
 works:
 - title: Anita
   image: "/content/assets/Winant_Volta_6-test.jpg"
