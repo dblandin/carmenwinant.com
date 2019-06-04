@@ -4,6 +4,9 @@ title: You are a spiritual being having a human experience, Frieze (NY)
 location: Frieze, Skowhegan
 cover: "/content/assets/Winant_Frieze-1.jpg"
 works:
+- title: Detail
+  image: "/content/assets/Winant2-frame_detail.jpg"
+  description: ''
 - title: side view
   image: "/content/assets/Winant_Frieze-2.jpg"
   description: ''
