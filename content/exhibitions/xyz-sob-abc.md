@@ -1,17 +1,14 @@
 ---
-date: 2019-06-04T02:14:47.4747+00:00
+date: 2019-06-04T02:14:47.474+00:00
 title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/billboard.jpg"
 works:
-- title: Never agin
-  image: "/content/assets/IMG_6059-1.jpg"
+- title: Off my body close up
+  image: "/content/assets/IMG_7870.jpg"
   description: ''
 - title: Off my body far away
   image: "/content/assets/IMG_7871.jpg"
-  description: ''
-- title: Off my body close up
-  image: "/content/assets/IMG_7870.jpg"
   description: ''
 - title: Worst fear close up
   image: "/content/assets/IMG_7888.jpg"
@@ -24,6 +21,9 @@ works:
   description: ''
 - title: XYZ-SOB-ABC /Who says Pain
   image: "/content/assets/Pain3.jpg"
+  description: ''
+- title: Never agin
+  image: "/content/assets/IMG_6059-1.jpg"
   description: ''
 - title: XYZ-SOB-ABC (No trespassing farther out)
   image: "/content/assets/Trespassing3.jpg"
