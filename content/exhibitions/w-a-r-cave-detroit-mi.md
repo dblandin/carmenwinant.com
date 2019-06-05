@@ -13,7 +13,7 @@ works:
 - title: Cave 'R'
   image: "/content/assets/DSC_4358.jpg"
   description: ''
-featured: false
+featured: true
 solo: true
 
 ---
