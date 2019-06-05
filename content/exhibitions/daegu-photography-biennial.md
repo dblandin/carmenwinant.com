@@ -2,6 +2,9 @@
 title: Daegu Photography Biennial, South Korea
 cover: "/content/assets/Winant_Daegucover.jpg"
 works:
+- title: overview
+  image: "/content/assets/IMG-78481.jpg"
+  description: ''
 - title: pair
   image: "/content/assets/IMG-7850.jpg"
   description: ''
