@@ -3,6 +3,9 @@ title: Body/Index, Stene Projects
 cover: "/content/assets/Winant_Stene_15-2.jpg"
 works:
 - title: Body/index
+  image: "/content/assets/stene_180914_131.jpg"
+  description: ''
+- title: Body/index
   image: "/content/assets/stene_180914_130.jpg"
   description: ''
 - title: Body/index
