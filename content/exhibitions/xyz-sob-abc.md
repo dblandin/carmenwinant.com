@@ -4,6 +4,9 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/billboard.jpg"
 works:
+- title: Off my body far away
+  image: "/content/assets/IMG_7871.jpg"
+  description: ''
 - title: Off my body close up
   image: "/content/assets/IMG_7870.jpg"
   description: ''
