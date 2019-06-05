@@ -4,6 +4,9 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/billboard.jpg"
 works:
+- title: Worst fear far away
+  image: "/content/assets/IMG_7863.jpg"
+  description: ''
 - title: XYZ-SOB-ABC (Western Civ)
   image: "/content/assets/Civilization2.jpg"
   description: ''
