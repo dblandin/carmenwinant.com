@@ -4,6 +4,12 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/billboard.jpg"
 works:
+- title: Off my body close up
+  image: "/content/assets/IMG_7870.jpg"
+  description: ''
+- title: Worst fear close up
+  image: "/content/assets/IMG_7888.jpg"
+  description: ''
 - title: Worst fear far away
   image: "/content/assets/IMG_7863.jpg"
   description: ''
