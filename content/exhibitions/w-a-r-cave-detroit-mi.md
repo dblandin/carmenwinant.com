@@ -4,6 +4,9 @@ location: Cave, Detroit, MI
 date: 2018-01-01T05:00:00.000+00:00
 cover: "/content/assets/DSC_4244.jpg"
 works:
+- title: 'pair 2: WAR'
+  image: "/content/assets/pair 2.jpg"
+  description: ''
 - title: Takeaway pair
   image: "/content/assets/pair 1.jpg"
   description: ''
