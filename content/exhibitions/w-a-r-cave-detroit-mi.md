@@ -4,6 +4,9 @@ location: Cave, Detroit, MI
 date: 2018-01-01T05:00:00.000+00:00
 cover: "/content/assets/DSC_4244.jpg"
 works:
+- title: large inside banner
+  image: "/content/assets/DSC_4346.jpg"
+  description: ''
 - title: Cave 'R'
   image: "/content/assets/DSC_4358.jpg"
   description: ''
