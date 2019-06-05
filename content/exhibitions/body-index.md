@@ -2,6 +2,9 @@
 title: Body/Index, Stene Projects
 cover: "/content/assets/Winant_Stene_15-2.jpg"
 works:
+- title: Even overview
+  image: "/content/assets/stene_180914_120.jpg"
+  description: ''
 - image: "/content/assets/Winant_Stene_15-test.jpg"
   title: Body/Index
   description: ''
