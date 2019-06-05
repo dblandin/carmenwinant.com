@@ -2,6 +2,9 @@
 title: 'In Practice: Another Echo, Sculpture Center'
 cover: "/content/assets/Winant_SC-test-1.jpg"
 works:
+- title: pair 1
+  image: "/content/assets/pair 1-1.jpg"
+  description: ''
 - title: SC
   image: "/content/assets/Winant_SculptureCenter_1-1.jpg"
   description: ''
