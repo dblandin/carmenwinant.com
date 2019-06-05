@@ -1,5 +1,5 @@
 ---
-title: Another Echo, Sculpture Center
+title: 'In Practice: Another Echo, Sculpture Center'
 cover: "/content/assets/Winant_SC-test-1.jpg"
 works:
 - title: SC
