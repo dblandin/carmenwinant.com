@@ -1,6 +1,6 @@
 ---
 title: 'In Practice: Another Echo, Sculpture Center'
-cover: "/content/assets/Winant_SC-test-1.jpg"
+cover: "/content/assets/2018_01_25_OHalloran_07(no banister)-1.jpg"
 works:
 - title: Overall pair
   image: "/content/assets/overall pair.jpg"
