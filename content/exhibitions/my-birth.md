@@ -2,6 +2,9 @@
 title: My Birth, Museum of Modern Art (NY)
 cover: "/content/assets/Birth-cover.jpg"
 works:
+- title: Moma woman looking
+  image: "/content/assets/IN2396_055_CCCR.jpg"
+  description: ''
 - title: Mom one full wall
   image: "/content/assets/IN2396_053_CCCR.jpg"
   description: ''
