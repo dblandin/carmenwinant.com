@@ -4,23 +4,20 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/billboard.jpg"
 works:
-- title: dignity
-  image: "/content/assets/Carmen Winant_Edmonton_Contact_0003.jpg"
-  description: ''
-- title: male fantasy
-  image: "/content/assets/IMG_0353.jpg"
-  description: ''
-- title: Fish bike
-  image: "/content/assets/IMG_0346.jpg"
-  description: ''
 - title: Off my body close up
   image: "/content/assets/IMG_7870.jpg"
   description: ''
 - title: Off my body far away
   image: "/content/assets/IMG_7871.jpg"
   description: ''
+- title: dignity
+  image: "/content/assets/Carmen Winant_Edmonton_Contact_0003.jpg"
+  description: ''
 - title: Worst fear close up
   image: "/content/assets/IMG_7888.jpg"
+  description: ''
+- title: male fantasy
+  image: "/content/assets/IMG_0353.jpg"
   description: ''
 - title: Worst fear far away
   image: "/content/assets/IMG_7863.jpg"
@@ -48,6 +45,9 @@ works:
   description: ''
 - title: XYZ-SOB-ABC/ Being pushed
   image: "/content/assets/7A2A3385.jpg"
+  description: ''
+- title: Fish bike
+  image: "/content/assets/IMG_0346.jpg"
   description: ''
 - title: XYZ-SOB-ABC/ Daycare + A womans place
   image: "/content/assets/_HA_0733.jpg"
