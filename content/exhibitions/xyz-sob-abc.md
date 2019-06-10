@@ -4,6 +4,12 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/billboard.jpg"
 works:
+- title: dignity
+  image: "/content/assets/Carmen Winant_Edmonton_Contact_0003.jpg"
+  description: ''
+- title: male fantasy
+  image: "/content/assets/IMG_0353.jpg"
+  description: ''
 - title: Fish bike
   image: "/content/assets/IMG_0346.jpg"
   description: ''
