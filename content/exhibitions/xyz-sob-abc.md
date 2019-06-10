@@ -4,6 +4,9 @@ title: XYZ-SOB-ABC, CONTACT Festival, Toronto
 location: Toronto, CN
 cover: "/content/assets/billboard.jpg"
 works:
+- title: Fish bike
+  image: "/content/assets/IMG_0346.jpg"
+  description: ''
 - title: Off my body close up
   image: "/content/assets/IMG_7870.jpg"
   description: ''
