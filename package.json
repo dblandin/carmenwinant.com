@@ -23,7 +23,7 @@
     "gatsby-plugin-sharp": "^2.0.33",
     "gatsby-remark-images": "^3.0.6",
     "gatsby-remark-normalize-paths": "https://github.com/forestryio/gatsby-remark-normalize-paths.git#install-from-github",
-    "gatsby-source-filesystem": "^2.0.23",
+    "gatsby-source-filesystem": "^2.1.28",
     "gatsby-transformer-remark": "^2.3.0",
     "gatsby-transformer-sharp": "^2.1.15",
     "gatsby-transformer-yaml": "^2.1.11",
