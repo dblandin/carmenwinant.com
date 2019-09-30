@@ -31,7 +31,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-headroom": "^2.2.8",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "gh-pages": "^2.0.1",
