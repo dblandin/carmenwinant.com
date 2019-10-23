@@ -29,7 +29,7 @@
     "gatsby-transformer-yaml": "^2.1.11",
     "git": "^0.1.5",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3",
+    "react-dom": "^16.11.0",
     "react-headroom": "^2.2.8",
     "react-helmet": "^5.2.0"
   },
