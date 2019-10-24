@@ -29,6 +29,6 @@ works:
   image: "/content/assets/_J0A5868.jpg"
   description: ''
 featured: true
-solo: true
+solo: false
 
 ---
