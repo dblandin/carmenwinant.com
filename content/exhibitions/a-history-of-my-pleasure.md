@@ -5,6 +5,12 @@ location: 14a
 cover: "/content/assets/_J0A5874.jpg"
 works:
 - title: A History of My Pleasure
+  image: "/content/assets/_J0A5874-1.jpg"
+  description: ''
+- title: A History of My Pleasure
+  image: "/content/assets/_J0A5873.jpg"
+  description: ''
+- title: A History of My Pleasure
   image: "/content/assets/_J0A5872.jpg"
   description: ''
 - title: A History of My Pleasure
