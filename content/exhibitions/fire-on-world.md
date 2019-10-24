@@ -5,6 +5,15 @@ location: Anderson Gallery, VCU
 cover: "/content/assets/FireonWorldWeb-25.jpg"
 works:
 - title: Fire On World
+  image: "/content/assets/FireonWorldWeb-14.jpg"
+  description: ''
+- title: Fire On World
+  image: "/content/assets/FireonWorldWeb-10.jpg"
+  description: ''
+- title: Fire On World
+  image: "/content/assets/FireonWorldWeb-5.jpg"
+  description: ''
+- title: Fire On World
   image: "/content/assets/FireonWorldWeb-4.jpg"
   description: ''
 - title: Fire On World
