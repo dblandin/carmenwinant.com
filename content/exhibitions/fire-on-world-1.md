@@ -5,6 +5,12 @@ location: ''
 cover: "/content/assets/FireonWorldWeb-25-1.jpg"
 works:
 - title: Fire on World
+  image: "/content/assets/FireonWorldWeb-22-1.jpg"
+  description: ''
+- title: Fire on World
+  image: "/content/assets/FireonWorldWeb-21-1.jpg"
+  description: ''
+- title: Fire on World
   image: "/content/assets/FireonWorldWeb-20-1.jpg"
   description: ''
 - title: Fire on World
