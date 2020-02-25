@@ -43,9 +43,6 @@ works:
 - title: Fire on World
   image: "/content/assets/FireonWorldWeb-2-2.jpg"
   description: ''
-- title: Fire On World
-  image: ''
-  description: ''
 featured: true
 solo: false
 
