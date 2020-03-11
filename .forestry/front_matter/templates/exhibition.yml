@@ -47,6 +47,7 @@ fields:
   description: Show in Info Page Solo Exhibitions section
 pages:
 - content/exhibitions/a-history-of-my-pleasure.md
+- content/exhibitions/a-melon-a-pineapple-an-olive-tree-an-emerald-and-a-fox-in-the-snow.md
 - content/exhibitions/another-echo.md
 - content/exhibitions/body-index.md
 - content/exhibitions/camouflage.md
