@@ -20,9 +20,6 @@ works:
 - title: a melon, a pineapple, an olive tree, an emerald, and a fox in the snow
   image: "/content/assets/Orlando6.jpg"
   description: ''
-- image: ''
-  description: ''
-  title: A melon, a pineapple, an olive tree, an emerald, and a fox in the snow
 featured: true
 solo: false
 
