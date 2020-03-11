@@ -5,6 +5,15 @@ location: ''
 cover: "/content/assets/NewVisions 2.jpg"
 works:
 - title: I, too, overflow
+  image: "/content/assets/_DSC8853.jpg"
+  description: ''
+- title: I, too, overflow
+  image: "/content/assets/_DSC8862.jpg"
+  description: ''
+- title: I, too, overflow
+  image: "/content/assets/_DSC8858.jpg"
+  description: ''
+- title: I, too, overflow
   image: "/content/assets/_DSC8857.jpg"
   description: ''
 - title: I, too, overflow
