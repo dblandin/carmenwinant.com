@@ -5,8 +5,7 @@ location: ''
 cover: "/content/assets/Orlando3.jpg"
 works:
 - title: a melon, a pineapple, an olive tree, an emerald, and a fox in the snow install
-  image: "/content/assets/Orlando_McEvoy Foundation for the Arts_#59 _©Henrik Kam
-    2020-2.jpg"
+  image: "/content/assets/Orlando_McEvoy_Foundation_for_the_Arts_59_Henrik_Kam_2020.jpg"
   description: ''
 - title: A melon, a pineapple, an olive tree, an emerald, and a fox in the snow
   image: "/content/assets/Orlando1.jpg"
