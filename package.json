@@ -18,7 +18,7 @@
     "gatsby-plugin-netlify": "^2.1",
     "gatsby-plugin-react-helmet": "^3.1",
     "gatsby-plugin-remove-trailing-slashes": "^2.1",
-    "gatsby-plugin-sharp": "^2.4",
+    "gatsby-plugin-sharp": "^2.5",
     "gatsby-remark-images": "^3.1",
     "gatsby-remark-normalize-paths": "https://github.com/forestryio/gatsby-remark-normalize-paths.git#install-from-github",
     "gatsby-source-filesystem": "^2.1",
