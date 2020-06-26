@@ -76,6 +76,36 @@ export default props => (
 
       const info = data.info.edges[0].node.frontmatter
 
+      const Contact = props => {
+        const { gallery, contact } = props.info
+
+        const showContact = gallery.url || contact.url
+
+        return (
+          <>
+            {showContact && (
+              <>
+                <h2>contact</h2>
+                <ul className="contact">
+                  {gallery.url && (
+                    <li>
+                      gallery&nbsp;&ndash;&nbsp;
+                      <a href={info.gallery.url}>{info.gallery.display}</a>
+                    </li>
+                  )}
+                  {contact.url && (
+                    <li>
+                      studio&nbsp;&ndash;&nbsp;
+                      <a href={info.contact.url}>{info.contact.display}</a>
+                    </li>
+                  )}
+                </ul>
+              </>
+            )}
+          </>
+        )
+      }
+
       return (
         <Layout>
           <Helmet>
@@ -95,17 +125,7 @@ export default props => (
                 />
               </ul>
 
-              <h2>contact</h2>
-              <ul className="contact">
-                <li>
-                  gallery&nbsp;&ndash;&nbsp;
-                  <a href={info.gallery.url}>{info.gallery.display}</a>
-                </li>
-                <li>
-                  studio&nbsp;&ndash;&nbsp;
-                  <a href={info.contact.url}>{info.contact.display}</a>
-                </li>
-              </ul>
+              <Contact info={info} />
 
               <h2>website</h2>
               <ul className="website">
