@@ -5,6 +5,18 @@ location: ''
 cover: "/content/assets/fn_winant_sept_2020_0008-1.jpg"
 works:
 - title: Togethering
+  image: "/content/assets/fn_winant_sept_2020_0059.jpg"
+  description: ''
+- title: Togethering
+  image: "/content/assets/fn_winant_sept_2020_0052.jpg"
+  description: ''
+- title: Togethering
+  image: "/content/assets/fn_winant_sept_2020_0047.jpg"
+  description: ''
+- title: Togethering
+  image: "/content/assets/fn_winant_sept_2020_0041.jpg"
+  description: ''
+- title: Togethering
   image: "/content/assets/fn_winant_sept_2020_0032.jpg"
   description: ''
 - title: Togethering
