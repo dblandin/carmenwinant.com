@@ -4,9 +4,6 @@ title: I, too, overflow / Woman must write herself
 location: ''
 cover: "/content/assets/NewVisions 2.jpg"
 works:
-- title: Woman Must Write herself
-  image: "/content/assets/saltoun_small.jpg"
-  description: ''
 - title: Woman must write herself
   image: "/content/assets/Woman Must Write Herself-1.JPG"
   description: ''

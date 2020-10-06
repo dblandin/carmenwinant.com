@@ -13,7 +13,7 @@ works:
 - title: HUNGER
   image: "/content/assets/winant-small1.jpg"
   description: ''
-featured: false
+featured: true
 solo: false
 
 ---
