@@ -5,6 +5,12 @@ location: ''
 cover: "/content/assets/winant-small1.jpg"
 works:
 - title: HUNGER
+  image: "/content/assets/mitra-small.jpg"
+  description: ''
+- title: HUNGER
+  image: "/content/assets/winant-small-mitra.jpg"
+  description: ''
+- title: HUNGER
   image: "/content/assets/winant-small1.jpg"
   description: ''
 featured: false
