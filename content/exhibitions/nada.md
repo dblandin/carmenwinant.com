@@ -1,6 +1,6 @@
 ---
 title: Nada (NY), Skibum McArthur
-cover: "/content/assets/Winant_Nada_4-cover.jpg"
+cover: "/content/assets/nada-skibum.jpg"
 works:
 - title: Blue pair
   image: "/content/assets/Winant_Nada_5.jpg"
