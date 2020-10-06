@@ -7,7 +7,7 @@ works:
 - title: Togethering
   image: ''
   description: ''
-featured: false
+featured: true
 solo: false
 
 ---
