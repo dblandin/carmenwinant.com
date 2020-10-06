@@ -4,6 +4,12 @@ title: Togethering
 location: ''
 cover: "/content/assets/fn_winant_sept_2020_0027.jpg"
 works:
+- title: Togethering install
+  image: "/content/assets/screen-shot-2020-10-06-at-10-50-36-am-copy.jpg"
+  description: ''
+- title: Togethering install
+  image: "/content/assets/screen-shot-2020-10-06-at-10-50-21-am-copy.jpg"
+  description: ''
 - title: Togethering
   image: "/content/assets/fn_winant_sept_2020_0067.jpg"
   description: ''
