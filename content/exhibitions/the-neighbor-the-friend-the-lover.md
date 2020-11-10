@@ -1,6 +1,6 @@
 ---
 date: 2020-11-10T21:39:48.4848+00:00
-title: The Neighbor, The Friend, The Lover
+title: The neighbor, the friend, the lover
 location: ''
 cover: ''
 works:
