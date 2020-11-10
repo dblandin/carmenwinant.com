@@ -5,6 +5,12 @@ location: ''
 cover: "/content/assets/heksejagt_charlottenborg_102_photo-by-david-stjernholm.jpg"
 works:
 - title: The neighbor, the friend, the lover
+  image: "/content/assets/heksejagt_charlottenborg_104_photo-by-david-stjernholm.jpg"
+  description: ''
+- title: The neighbor, the friend, the lover
+  image: "/content/assets/heksejagt_charlottenborg_102_photo-by-david-stjernholm.jpg"
+  description: ''
+- title: The neighbor, the friend, the lover
   image: "/content/assets/heksejagt_charlottenborg_101_photo-by-david-stjernholm.jpg"
   description: ''
 featured: true
