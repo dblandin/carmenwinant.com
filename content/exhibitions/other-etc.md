@@ -13,7 +13,7 @@ works:
 - title: Only Women on the Land
   image: "/content/assets/large-1.jpg"
   description: ''
-featured: false
+featured: true
 solo: false
 
 ---
