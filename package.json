@@ -32,7 +32,7 @@
     "react-helmet": "^6.1"
   },
   "devDependencies": {
-    "prettier": "^1.19"
+    "prettier": "^2.2"
   },
   "repository": {
     "type": "git",
