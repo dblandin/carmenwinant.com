@@ -1,6 +1,6 @@
 ---
 date: 2019-10-24T18:41:07.077+00:00
-title: A History of My Pleasure
+title: A History of My Pleasure, 14a
 location: 14a
 cover: "/content/assets/_J0A5874-2.jpg"
 works:
