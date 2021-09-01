@@ -5,7 +5,10 @@ location: ''
 cover: "/content/assets/winant_bemis-3.jpg"
 works:
 - title: CR
-  image: "/content/assets/dsc03143-1.jpg"
+  image: "/content/assets/bemis_winant_4.jpg"
+  description: ''
+- title: CR
+  image: "/content/assets/bemis_winant_2.jpg"
   description: ''
 featured: true
 solo: false
