@@ -11,7 +11,7 @@ works:
   image: "/content/assets/bemis_winant_1.jpg"
   description: ''
 - title: CR
-  image: ''
+  image: "/content/assets/bemis_winant_3.jpg"
   description: ''
 - title: CR
   image: "/content/assets/bemis_winant_4.jpg"
