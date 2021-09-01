@@ -1,6 +1,6 @@
 ---
 date: 2020-10-01T17:44:09.099+00:00
-title: Togethering
+title: Togethering, Fortnight Institute
 location: ''
 cover: "/content/assets/fn_winant_sept_2020_0027.jpg"
 works:
