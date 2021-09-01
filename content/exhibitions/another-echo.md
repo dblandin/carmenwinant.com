@@ -1,5 +1,5 @@
 ---
-title: 'In Practice: Another Echo, Sculpture Center'
+title: Looking Forward to Being Attacked, Sculpture Center
 cover: "/content/assets/2018_01_25_OHalloran_07(no banister)-1.jpg"
 works:
 - title: Overall pair
