@@ -5,6 +5,33 @@ location: ''
 cover: "/content/assets/dsc09678.jpg"
 works:
 - title: PM
+  image: "/content/assets/dsc09707.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09706.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09705.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09704.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09703.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09702.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09701.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09700.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09699.jpg"
+  description: ''
+- title: PM
   image: "/content/assets/dsc09698.jpg"
   description: ''
 - title: PM
