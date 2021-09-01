@@ -5,6 +5,21 @@ location: ''
 cover: "/content/assets/dsc09678.jpg"
 works:
 - title: PM
+  image: "/content/assets/dsc09717.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09716.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09714.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09713.jpg"
+  description: ''
+- title: PM
+  image: "/content/assets/dsc09712.jpg"
+  description: ''
+- title: PM
   image: "/content/assets/dsc09711.jpg"
   description: ''
 - title: PM
