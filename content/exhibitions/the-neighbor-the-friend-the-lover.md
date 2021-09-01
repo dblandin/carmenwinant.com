@@ -1,6 +1,6 @@
 ---
-date: 2020-11-10T21:39:48.4848+00:00
-title: The neighbor, the friend, the lover
+date: 2020-11-10T21:39:48.484+00:00
+title: The neighbor, the friend, the lover, Kunsthal Charlottenborg
 location: ''
 cover: "/content/assets/cover_cw.jpg"
 works:
