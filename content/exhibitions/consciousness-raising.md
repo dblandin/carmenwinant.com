@@ -4,6 +4,12 @@ title: Consciousness Raising, Bemis Center
 location: ''
 cover: "/content/assets/winant_bemis-3.jpg"
 works:
+- title: CW
+  image: "/content/assets/all-together_carmen-winant_reading-room8.jpg"
+  description: ''
+- title: CW
+  image: "/content/assets/all-together_carmen-winant_reading-room4.jpg"
+  description: ''
 - title: CR
   image: "/content/assets/nice-girl_lamar.png"
   description: ''
