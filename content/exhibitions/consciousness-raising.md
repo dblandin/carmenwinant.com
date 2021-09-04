@@ -5,6 +5,9 @@ location: ''
 cover: "/content/assets/winant_bemis-3.jpg"
 works:
 - title: CR
+  image: "/content/assets/dsc04605.jpg"
+  description: ''
+- title: CR
   image: "/content/assets/dsc04622.jpg"
   description: ''
 - title: CR
