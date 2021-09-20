@@ -5,12 +5,15 @@ location: ''
 cover: "/content/assets/carman_nada_009.jpg"
 works:
 - title: Nada
+  image: "/content/assets/carman_nada_010.jpg"
+  description: ''
+- title: Nada
   image: "/content/assets/carman_nada_009-2.jpg"
   description: ''
 - title: Nada
   image: "/content/assets/carman_nada_009-1.jpg"
   description: ''
-featured: false
+featured: true
 solo: false
 
 ---
