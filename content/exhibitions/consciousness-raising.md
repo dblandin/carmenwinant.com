@@ -7,19 +7,19 @@ works:
 - title: CRR
   image: "/content/assets/dsc04605.jpg"
   description: ''
-- title: CR
+- title: CRR
   image: "/content/assets/dsc04622.jpg"
   description: ''
-- title: CR
+- title: CRR
   image: "/content/assets/dsc04654.jpg"
   description: ''
-- title: CW
+- title: CRR
   image: "/content/assets/all-together_carmen-winant_window-vinyl1.jpg"
   description: ''
-- title: CW
+- title: CRR
   image: "/content/assets/all-together_carmen-winant_reading-room8.jpg"
   description: ''
-- title: CR
+- title: CRR
   image: "/content/assets/all-together_carmen-winant_reading-room4.jpg"
   description: ''
 - title: CR
