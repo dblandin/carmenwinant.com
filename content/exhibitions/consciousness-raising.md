@@ -5,6 +5,12 @@ location: ''
 cover: "/content/assets/winant_bemis-3.jpg"
 works:
 - title: Bemis
+  image: "/content/assets/all-together_carmen-winant_window-vinyl1.jpg"
+  description: ''
+- title: Bemis
+  image: "/content/assets/all-together_carmen-winant_reading-room8.jpg"
+  description: ''
+- title: Bemis
   image: "/content/assets/all-together_carmen-winant_reading-room4.jpg"
   description: ''
 - title: CR
