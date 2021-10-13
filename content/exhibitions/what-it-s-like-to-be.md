@@ -5,10 +5,10 @@ location: ''
 cover: "/content/assets/dsc09678.jpg"
 works:
 - title: PM
-  image: "/content/assets/dsc09727.jpg"
+  image: "/content/assets/dsc09726.jpg"
   description: ''
 - title: PM
-  image: "/content/assets/dsc09726.jpg"
+  image: "/content/assets/dsc09727.jpg"
   description: ''
 - title: PM
   image: "/content/assets/dsc09725.jpg"
