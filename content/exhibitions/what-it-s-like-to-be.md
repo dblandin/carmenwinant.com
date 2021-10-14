@@ -1,14 +1,14 @@
 ---
-date: 2021-09-01T15:06:15.1515+00:00
+date: 2021-09-01T15:06:15.151+00:00
 title: What it's like to be, Printed Matter Inc.
 location: ''
 cover: "/content/assets/dsc09678.jpg"
 works:
-- title: PM
+- title: PM Test
   image: "/content/assets/dsc09726.jpg"
   description: ''
 - title: PM
-  image: "/content/assets/dsc09727.jpg"
+  image: "/content/assets/dsc09726.jpg"
   description: ''
 - title: PM
   image: "/content/assets/dsc09725.jpg"
