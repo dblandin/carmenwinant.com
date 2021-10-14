@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet"
 
 export default ({ data, pageContext }) => {
   const exhibition = data.markdownRemark
+  const works = exhibition.frontmatter.works.filter(work => work.image) // a band-aid to only show images if the image field is present. For some reason forestry is returning null every once in a while
 
   const NonStretchedImage = props => {
     let normalizedProps = props
@@ -33,7 +34,7 @@ export default ({ data, pageContext }) => {
         <meta name="description" content={info.bio} />
       </Helmet>
       <div className="exhibition">
-        {exhibition.frontmatter.works.map((work, index) => (
+        {works.map((work, index) => (
           <NonStretchedImage
             className="exhibition-image"
             key={index}
