@@ -4,7 +4,7 @@ title: What it's like to be, Printed Matter Inc.
 location: ''
 cover: "/content/assets/dsc09678.jpg"
 works:
-- title: PM Test
+- title: PM
   image: "/content/assets/dsc09727.jpg"
   description: ''
 - title: PM
