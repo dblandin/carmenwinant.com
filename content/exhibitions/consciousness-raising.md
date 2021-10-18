@@ -5,13 +5,13 @@ location: ''
 cover: "/content/assets/winant_bemis-3.jpg"
 works:
 - title: CR
-  image: "/content/assets/all-together_carmen-winant_window-vinyl1.jpg"
+  image: "/content/assets/bemis_winant_2.jpg"
   description: ''
 - title: CR
-  image: "/content/assets/all-together_carmen-winant_reading-room4.jpg"
+  image: "/content/assets/bemis_winant_4.jpg"
   description: ''
 - title: CR
-  image: "/content/assets/all-together_carmen-winant_reading-room8.jpg"
+  image: "/content/assets/bemis_winant_3.jpg"
   description: ''
 - title: CR
   image: "/content/assets/nice-girl_lamar.png"
@@ -20,13 +20,13 @@ works:
   image: "/content/assets/bemis_winant_1.jpg"
   description: ''
 - title: CR
-  image: "/content/assets/bemis_winant_3.jpg"
+  image: "/content/assets/all-together_carmen-winant_window-vinyl1.jpg"
   description: ''
 - title: CR
-  image: "/content/assets/bemis_winant_4.jpg"
+  image: "/content/assets/all-together_carmen-winant_reading-room4.jpg"
   description: ''
 - title: CR
-  image: "/content/assets/bemis_winant_2.jpg"
+  image: "/content/assets/all-together_carmen-winant_reading-room8.jpg"
   description: ''
 featured: true
 solo: false
