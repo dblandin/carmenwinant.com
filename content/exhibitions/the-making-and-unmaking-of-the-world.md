@@ -4,6 +4,12 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: round mobile plates
+  image: "/content/assets/cw006_for-the-conjunction-of-two-planets_2021_72-1.jpg"
+  description: ''
+- title: detail 6
+  image: "/content/assets/cw005-14.jpg"
+  description: ''
 - title: detail 5
   image: "/content/assets/cw005-9.jpg"
   description: ''
