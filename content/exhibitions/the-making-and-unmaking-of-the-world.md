@@ -4,6 +4,12 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: Silver mobile
+  image: "/content/assets/cw003_how-to-build-a-pyramid_2021_72.jpg"
+  description: ''
+- title: detail 4
+  image: "/content/assets/cw002-14.jpg"
+  description: ''
 - title: detail 3
   image: "/content/assets/cw002-24.jpg"
   description: ''
