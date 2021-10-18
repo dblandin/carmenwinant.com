@@ -1,27 +1,9 @@
 ---
-date: 2021-09-01T15:17:50.5050+00:00
+date: 2021-09-01T15:17:50.505+00:00
 title: Consciousness Raising, Bemis Center
 location: ''
 cover: "/content/assets/winant_bemis-3.jpg"
 works:
-- title: Bemis
-  image: "/content/assets/all-together_carmen-winant_window-vinyl1.jpg"
-  description: ''
-- title: Bemis
-  image: "/content/assets/all-together_carmen-winant_reading-room8.jpg"
-  description: ''
-- title: Bemis
-  image: "/content/assets/all-together_carmen-winant_reading-room4.jpg"
-  description: ''
-- title: CR
-  image: "/content/assets/all-together.jpg"
-  description: ''
-- title: CR
-  image: "/content/assets/dsc04622.jpg"
-  description: ''
-- title: CR
-  image: "/content/assets/dsc04605.jpg"
-  description: ''
 - title: CR
   image: "/content/assets/all-together_carmen-winant_window-vinyl1.jpg"
   description: ''
