@@ -4,6 +4,9 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: Round mobile
+  image: "/content/assets/cw004_eclipse-with-object_2021_72.jpg"
+  description: ''
 - title: detail 4
   image: "/content/assets/cw003-16.jpg"
   description: ''
