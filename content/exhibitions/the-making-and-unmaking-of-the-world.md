@@ -4,6 +4,12 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: Install 3
+  image: "/content/assets/2021-01-winant-schiff-8.jpg"
+  description: ''
+- title: mobiles room 2
+  image: "/content/assets/2021-01-winant-schiff-4.jpg"
+  description: ''
 - title: mobiles install
   image: "/content/assets/2021-01-winant-schiff-3.jpg"
   description: ''
@@ -24,9 +30,6 @@ works:
   description: ''
 - title: purple frame detail
   image: "/content/assets/cw013_poetry-for-world-building-i_2021_300-3.jpg"
-  description: ''
-- title: Purple frame 1
-  image: "/content/assets/cw014_poetry-for-world-building-ii_2021_300.jpg"
   description: ''
 - title: Red frame 3
   image: "/content/assets/cw012_hand-study-making-in-whiteness-iii_2021_72.jpg"
