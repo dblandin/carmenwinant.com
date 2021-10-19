@@ -4,6 +4,18 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: stop 3
+  image: "/content/assets/cw007_my-mother-s-body-mobile-for-marge-piercey-_2021_72-2.jpg"
+  description: ''
+- title: Stop 2
+  image: "/content/assets/cw007_my-mother-s-body-mobile-for-marge-piercey-_2021_72-1.jpg"
+  description: ''
+- title: Stop 1
+  image: "/content/assets/cw007_my-mother-s-body-mobile-for-marge-piercey-_2021_72.jpg"
+  description: ''
+- title: detail 2
+  image: "/content/assets/cw006-18.jpg"
+  description: ''
 - title: detail 3
   image: "/content/assets/cw006-7.jpg"
   description: ''
