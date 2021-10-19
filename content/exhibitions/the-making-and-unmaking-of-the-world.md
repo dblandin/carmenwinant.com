@@ -34,9 +34,6 @@ works:
 - title: Red frame 2 from side
   image: "/content/assets/cw011_hand-study-making-in-whiteness-ii_2021_72-2.jpg"
   description: ''
-- title: Red frame flr 2
-  image: "/content/assets/cw011_hand-study-making-in-whiteness-ii_2021_72-1.jpg"
-  description: ''
 - title: Red hand detail
   image: "/content/assets/cw010_hand-study-making-in-whiteness-i_2021_72-3.jpg"
   description: ''
