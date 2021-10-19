@@ -4,6 +4,12 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: Bead detail 3
+  image: "/content/assets/cw009-22.jpg"
+  description: ''
+- title: bead detail 2
+  image: "/content/assets/cw009-12.jpg"
+  description: ''
 - title: bead detail 1
   image: "/content/assets/cw009-8.jpg"
   description: ''
