@@ -4,6 +4,12 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: install w red and purple
+  image: "/content/assets/2021-01-winant-schiff-12.jpg"
+  description: ''
+- title: red frames
+  image: "/content/assets/2021-01-winant-schiff-11.jpg"
+  description: ''
 - title: Install 3
   image: "/content/assets/2021-01-winant-schiff-8.jpg"
   description: ''
