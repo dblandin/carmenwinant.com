@@ -4,6 +4,12 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: Red frame no floor
+  image: "/content/assets/cw010_hand-study-making-in-whiteness-i_2021_72.jpg"
+  description: ''
+- title: Red frame 1 w flr
+  image: "/content/assets/cw010_hand-study-making-in-whiteness-i_2021_72-1.jpg"
+  description: ''
 - title: bead detail 4
   image: "/content/assets/cw009-20.jpg"
   description: ''
