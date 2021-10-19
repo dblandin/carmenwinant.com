@@ -4,6 +4,12 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: Red hanging mobile
+  image: "/content/assets/cw009_ecstatic-experiences-with-nature-newborn-mobile-_2021_72.jpg"
+  description: ''
+- title: Detail eye
+  image: "/content/assets/cw007-9.jpg"
+  description: ''
 - title: Black mobile 3
   image: "/content/assets/cw008_portrait-of-my-spinal-column-and-central-nervous-system_2021_72-2.jpg"
   description: ''
