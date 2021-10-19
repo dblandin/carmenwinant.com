@@ -4,6 +4,12 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: bead detail 1
+  image: "/content/assets/cw009-8.jpg"
+  description: ''
+- title: red handing mobile 2
+  image: "/content/assets/cw009_ecstatic-experiences-with-nature-newborn-mobile-_2021_72-3.jpg"
+  description: ''
 - title: Red hanging mobile
   image: "/content/assets/cw009_ecstatic-experiences-with-nature-newborn-mobile-_2021_72.jpg"
   description: ''
