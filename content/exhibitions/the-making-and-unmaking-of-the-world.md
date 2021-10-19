@@ -4,6 +4,15 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: Black mobile 3
+  image: "/content/assets/cw008_portrait-of-my-spinal-column-and-central-nervous-system_2021_72-2.jpg"
+  description: ''
+- title: Black mobile 2
+  image: "/content/assets/cw008_portrait-of-my-spinal-column-and-central-nervous-system_2021_72-1.jpg"
+  description: ''
+- title: black mobile
+  image: "/content/assets/cw008_portrait-of-my-spinal-column-and-central-nervous-system_2021_72.jpg"
+  description: ''
 - title: Stop detail
   image: "/content/assets/cw007-12.jpg"
   description: ''
