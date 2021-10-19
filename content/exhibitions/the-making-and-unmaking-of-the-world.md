@@ -4,11 +4,14 @@ title: The Making and Unmaking of the World
 location: ''
 cover: "/content/assets/cw002_i-am-an-instrument-in-the-shape-of-woman_2021_72.jpg"
 works:
+- title: purple 3
+  image: "/content/assets/cw016_poetry-for-world-building-iii_2021_72-1.jpg"
+  description: ''
+- title: pruple frame 2
+  image: "/content/assets/cw014_poetry-for-world-building-ii_2021_300-1.jpg"
+  description: ''
 - title: purple frame detail
   image: "/content/assets/cw013_poetry-for-world-building-i_2021_300-3.jpg"
-  description: ''
-- title: purple detail
-  image: ''
   description: ''
 - title: Purple frame 1
   image: "/content/assets/cw014_poetry-for-world-building-ii_2021_300.jpg"
