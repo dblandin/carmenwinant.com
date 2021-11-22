@@ -5,12 +5,6 @@ location: ''
 cover: "/content/assets/dsc00464.jpg"
 works:
 - title: Modern Empire
-  image: "/content/assets/dsc00466.jpg"
-  description: ''
-- title: Modern Empire
-  image: "/content/assets/dsc00465.jpg"
-  description: ''
-- title: Modern Empire
   image: "/content/assets/dsc00455.jpg"
   description: ''
 - title: Modern Empire
@@ -20,15 +14,24 @@ works:
   image: "/content/assets/dsc00463.jpg"
   description: ''
 - title: Modern Empire
+  image: "/content/assets/dsc00466.jpg"
+  description: ''
+- title: Modern Empire
+  image: "/content/assets/dsc00467.jpg"
+  description: ''
+- title: Modern Empire
   image: "/content/assets/dsc00461.jpg"
   description: ''
 - title: Modern Empire
   image: "/content/assets/dsc00459.jpg"
   description: ''
 - title: Modern Empire
+  image: "/content/assets/dsc00465.jpg"
+  description: ''
+- title: Modern Empire
   image: "/content/assets/dsc00462.jpg"
   description: ''
-featured: false
+featured: true
 solo: false
 
 ---
