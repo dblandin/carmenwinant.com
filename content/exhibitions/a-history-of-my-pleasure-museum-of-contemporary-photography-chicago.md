@@ -5,15 +5,6 @@ location: ''
 cover: "/content/assets/winant_panel2_side1lseditflat.jpg"
 works:
 - title: MoCP
-  image: "/content/assets/img_1534.jpg"
-  description: ''
-- title: MoCP
-  image: "/content/assets/img_1533.jpg"
-  description: ''
-- title: MoCP
-  image: "/content/assets/img_1532.jpg"
-  description: ''
-- title: MoCP
   image: "/content/assets/img_1531.jpg"
   description: ''
 - title: MoCP
@@ -27,6 +18,15 @@ works:
   description: ''
 - title: MoCP
   image: "/content/assets/winant_panel2_side1lseditflat.jpg"
+  description: ''
+- title: MoCP
+  image: "/content/assets/img_1534.jpg"
+  description: ''
+- title: MoCP
+  image: "/content/assets/img_1532.jpg"
+  description: ''
+- title: MoCP
+  image: "/content/assets/img_1533.jpg"
   description: ''
 featured: true
 solo: false
