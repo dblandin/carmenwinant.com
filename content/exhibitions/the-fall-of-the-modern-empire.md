@@ -5,6 +5,12 @@ location: ''
 cover: "/content/assets/dsc00464.jpg"
 works:
 - title: Modern Empire
+  image: "/content/assets/dsc00464.jpg"
+  description: ''
+- title: Modern Empire
+  image: "/content/assets/dsc00463.jpg"
+  description: ''
+- title: Modern Empire
   image: "/content/assets/dsc00461.jpg"
   description: ''
 - title: Modern Empire
