@@ -2,7 +2,7 @@
 date: 2021-11-22T01:24:18.1818+00:00
 title: The Fall of The Modern Empire
 location: ''
-cover: "/content/assets/dsc00464.jpg"
+cover: "/content/assets/cover-2.jpg"
 works:
 - title: Modern Empire
   image: "/content/assets/dsc00455.jpg"
