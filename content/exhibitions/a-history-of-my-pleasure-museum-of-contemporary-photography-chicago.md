@@ -5,6 +5,12 @@ location: ''
 cover: "/content/assets/winant_panel2_side1lseditflat.jpg"
 works:
 - title: MoCP
+  image: "/content/assets/img_1532.jpg"
+  description: ''
+- title: MoCP
+  image: "/content/assets/img_1531.jpg"
+  description: ''
+- title: MoCP
   image: "/content/assets/img_1476.jpg"
   description: ''
 - title: MoCP
