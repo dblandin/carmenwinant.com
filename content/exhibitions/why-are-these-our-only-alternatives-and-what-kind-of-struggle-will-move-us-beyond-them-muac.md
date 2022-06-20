@@ -5,7 +5,7 @@ title: Why are these our only alternatives and what kind of struggle will move u
 location: ''
 cover: "/content/assets/winant012.jpg"
 works: []
-featured: false
+featured: true
 solo: false
 
 ---
