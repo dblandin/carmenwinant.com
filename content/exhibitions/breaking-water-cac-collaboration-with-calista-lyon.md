@@ -4,6 +4,9 @@ title: Breaking Water, CAC, Collaboration with Calista Lyon
 location: ''
 cover: "/content/assets/breaking-water-exhibition-192.jpg"
 works:
+- title: Breaking water 4
+  image: "/content/assets/breaking-water-exhibition-195.jpg"
+  description: ''
 - title: Breaking water 3
   image: "/content/assets/breaking-water-exhibition-202.jpg"
   description: ''
