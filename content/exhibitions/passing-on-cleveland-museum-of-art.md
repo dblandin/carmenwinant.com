@@ -19,7 +19,7 @@ works:
 - title: Passing Role
   image: "/content/assets/2021-10-14_db_motherhood_exhibition_100-1.jpg"
   description: ''
-featured: false
+featured: true
 solo: false
 
 ---
