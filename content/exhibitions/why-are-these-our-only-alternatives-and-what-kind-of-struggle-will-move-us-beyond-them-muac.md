@@ -5,6 +5,9 @@ title: Why are these our only alternatives and what kind of struggle will move u
 location: ''
 cover: "/content/assets/winant012.jpg"
 works:
+- title: MUAC
+  image: "/content/assets/winant025.jpg"
+  description: ''
 - title: MUAC1
   image: "/content/assets/winant026.jpg"
   description: ''
