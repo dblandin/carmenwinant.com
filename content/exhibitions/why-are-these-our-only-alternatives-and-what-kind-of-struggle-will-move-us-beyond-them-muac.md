@@ -6,6 +6,15 @@ location: ''
 cover: "/content/assets/winant012.jpg"
 works:
 - title: MUAC
+  image: "/content/assets/winant020.jpg"
+  description: ''
+- title: MUAC
+  image: "/content/assets/winant021.jpg"
+  description: ''
+- title: MUAC
+  image: "/content/assets/winant022.jpg"
+  description: ''
+- title: MUAC
   image: "/content/assets/winant023.jpg"
   description: ''
 - title: MUAC
@@ -13,9 +22,6 @@ works:
   description: ''
 - title: MUAC
   image: "/content/assets/winant025.jpg"
-  description: ''
-- title: MUAC1
-  image: "/content/assets/winant026.jpg"
   description: ''
 featured: true
 solo: false
