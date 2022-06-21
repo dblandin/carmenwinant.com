@@ -4,7 +4,10 @@ title: Why are these our only alternatives and what kind of struggle will move u
   beyond them?, MUAC
 location: ''
 cover: "/content/assets/winant012.jpg"
-works: []
+works:
+- title: MUAC1
+  image: "/content/assets/winant026.jpg"
+  description: ''
 featured: true
 solo: false
 
