@@ -6,6 +6,15 @@ location: ''
 cover: "/content/assets/winant012.jpg"
 works:
 - title: MUAC
+  image: "/content/assets/cg-03446.jpg"
+  description: ''
+- title: MUAC
+  image: "/content/assets/cg-03398.jpg"
+  description: ''
+- title: MUAC
+  image: "/content/assets/cg-03475.jpg"
+  description: ''
+- title: MUAC
   image: "/content/assets/cg-03492.jpg"
   description: ''
 - title: MUAC
