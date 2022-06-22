@@ -5,6 +5,9 @@ location: ''
 cover: "/content/assets/cwinantshow-220413-40.jpg"
 works:
 - title: ABNE
+  image: "/content/assets/cwinantshow-220413-102-hdr-pano.jpg"
+  description: ''
+- title: ABNE
   image: "/content/assets/cwinantshow-220413-111-hdr-pano.jpg"
   description: ''
 - title: ABNE
