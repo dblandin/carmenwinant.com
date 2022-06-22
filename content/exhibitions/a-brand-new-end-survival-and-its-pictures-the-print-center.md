@@ -73,7 +73,7 @@ works:
 - title: ABNE
   description: ''
   image: "/content/assets/busstop_-220408-16.jpg"
-featured: false
+featured: true
 solo: false
 
 ---
