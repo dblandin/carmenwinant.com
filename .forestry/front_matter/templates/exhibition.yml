@@ -46,6 +46,7 @@ fields:
   label: Solo Show
   description: Show in Info Page Solo Exhibitions section
 pages:
+- content/exhibitions/a-brand-new-end-survival-and-its-pictures-the-print-center.md
 - content/exhibitions/a-history-of-my-pleasure-museum-of-contemporary-photography-chicago.md
 - content/exhibitions/a-history-of-my-pleasure.md
 - content/exhibitions/a-melon-a-pineapple-an-olive-tree-an-emerald-and-a-fox-in-the-snow.md
