@@ -4,8 +4,11 @@ title: What It's Like To Be, ICA Boston
 location: ''
 cover: "/content/assets/exhibition_to-begin-again_mel-taing_1a3a7486.jpg"
 works:
+- title: WILTB
+  image: "/content/assets/carmen-winant_tba_mel-taing_1a3a8861.jpg"
+  description: ''
 - title: What It's Like to Be
-  image: "/content/assets/exhibition_to-begin-again_mel-taing_1a3a7468.jpg"
+  image: "/content/assets/carmen-winant_tba_mel-taing_1a3a8866.jpg"
   description: ''
 featured: true
 solo: false
