@@ -5,6 +5,12 @@ location: ''
 cover: "/content/assets/44_carmenwinant_in_situ_paulceresole_-cynthiamaiammann_1358.jpg"
 works:
 - title: Arrangements
+  image: "/content/assets/44_carmenwinant_in_situ_paulceresole_-cynthiamaiammann_1358.jpg"
+  description: ''
+- title: Arrangements
+  image: "/content/assets/44_carmenwinant_in_situ_paulceresole_-cynthiamaiammann_1336.jpg"
+  description: ''
+- title: Arrangements
   image: "/content/assets/44_carmenwinant_in_situ_paulceresole_-cynthiamaiammann_1355.jpg"
   description: ''
 - title: Arrangements
