@@ -5,6 +5,9 @@ location: ''
 cover: "/content/assets/44_carmenwinant_in_situ_paulceresole_-cynthiamaiammann_1358.jpg"
 works:
 - title: Arrangements
+  image: "/content/assets/img_4851.jpg"
+  description: ''
+- title: Arrangements
   image: "/content/assets/44_carmenwinant_in_situ_appartement_-cynthiamaiammann_1535.jpg"
   description: ''
 - title: Arrangements
